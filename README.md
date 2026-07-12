@@ -98,16 +98,6 @@ Files included:
 
 These files support database schema creation, business SQL views, and ERD generation in Lucidchart.
 
-## Learning Guides
-
-Supporting explanation files:
-
-- `Objective_4_5_7_10_Learning_Guide.md`
-- `Machine_Learning_Models_Line_By_Line_Guide.md`
-- `Screenshot_Changes_Log.md`
-
-These files explain the project work in a beginner-friendly way.
-
 ## Important Run Setting
 
 The notebook contains:
