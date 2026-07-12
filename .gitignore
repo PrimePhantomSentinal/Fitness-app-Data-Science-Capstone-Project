@@ -5,13 +5,18 @@
 __pycache__/
 *.pyc
 
+*.db
+*.sqlite
+*.sqlite3
+*.pkl
+
 .env
 .env.*
 
 Datasets/
+Datasets */
 
 *.xlsx
 *.csv
 
 .vscode/
-
