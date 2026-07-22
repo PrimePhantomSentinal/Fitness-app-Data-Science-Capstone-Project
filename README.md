@@ -22,10 +22,12 @@ The goal is to understand:
 The main project notebook is:
 
 ```text
-app/main.ipynb
+main.ipynb
 ```
 
-The notebook includes:
+A separate clustering notebook (`kmeans_clustering_model.ipynb`) and a feature-driver notebook (`app/model-finding.ipynb`) hold supplementary analysis kept out of the main flow.
+
+The main notebook includes:
 
 - Data loading and inspection
 - Data cleaning checks
@@ -92,11 +94,24 @@ database_docs/
 
 Files included:
 
-- `fittech_database_schema.sql`
-- `fittech_sql_automations.sql`
-- `lucidchart_erd_prompt.md`
+- `fittech_mysql.sql` — MySQL import script (schema + data) generated from the project's SQLite database
+- `fittech_sql_automations.sql` — business-facing views, a trigger, a stored procedure, and a scheduled event
+- `Queries.sql` — ad hoc analytical queries used during the project
 
-These files support database schema creation, business SQL views, and ERD generation in Lucidchart.
+These files support database schema creation, business SQL views, and automated reporting.
+
+## Presentation
+
+The mentor-facing presentation is stored in:
+
+```text
+Presentation/
+```
+
+Two equivalent versions are included:
+
+- `FitTech_Capstone_Presentation.pptx` — offline PowerPoint deck (15 slides)
+- `fittech_app_analytics.html` — interactive browser version of the same deck (requires internet for fonts/charts)
 
 ## Important Run Setting
 

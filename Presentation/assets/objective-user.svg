@@ -1,0 +1,23 @@
+<svg width="400" height="200" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B192C"/>
+      <stop offset="100%" stop-color="#122D4A"/>
+    </linearGradient>
+    <linearGradient id="stroke" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="200" rx="24" fill="url(#bg)"/>
+  <circle cx="120" cy="100" r="42" fill="#1E3A5F" stroke="url(#stroke)" stroke-width="6"/>
+  <path d="M97 160c0-28 46-28 46 0" fill="none" stroke="#8BD2FF" stroke-width="8" stroke-linecap="round"/>
+  <rect x="210" y="40" width="140" height="32" rx="16" fill="#0B192C" stroke="#3B82F6" stroke-width="2"/>
+  <rect x="210" y="84" width="90" height="22" rx="11" fill="#0B192C" stroke="#10B981" stroke-width="2"/>
+  <rect x="210" y="120" width="120" height="18" rx="9" fill="#0B192C" stroke="#EC4899" stroke-width="2"/>
+  <circle cx="230" cy="55" r="6" fill="#10B981"/>
+  <circle cx="260" cy="55" r="6" fill="#3B82F6"/>
+  <circle cx="290" cy="55" r="6" fill="#EC4899"/>
+  <path d="M235 90l18-20 24 14" fill="none" stroke="#93C5FD" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="210" y="166" font-family="Poppins, sans-serif" font-size="16" fill="#E6F1FF">User persona</text>
+</svg>
