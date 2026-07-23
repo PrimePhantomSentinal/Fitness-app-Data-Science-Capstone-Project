@@ -34,7 +34,7 @@
             top: 40px;
             right: 50px;
             font-family: 'Poppins', sans-serif;
-            font-size: 18px;
+            font-size: 20px;
             font-weight: 700;
             color: var(--text-secondary);
             z-index: 1000;
@@ -135,7 +135,7 @@
         .slide-container.active li:nth-child(3), .slide-container.active .flip-container:nth-child(3) { transition-delay: 0.6s; }
 
         .slide-header { margin-bottom: 30px; border-bottom: 2px solid var(--border-color); padding-bottom: 15px; display: flex; justify-content: space-between; align-items: flex-end; }
-        .slide-header h2 { font-size: 38px; color: var(--text-primary); letter-spacing: -0.5px; }
+        .slide-header h2 { font-size: 43px; color: var(--text-primary); letter-spacing: -0.5px; }
 
         /* --- AMBIENT GLOW ANIMATION --- */
         @keyframes driftGlow {
@@ -150,15 +150,15 @@
         .title-layout { display: flex; align-items: center; justify-content: space-between; height: 100%; }
         .title-text { max-width: 650px; }
         .title-text .tag { color: var(--accent-emerald); font-family: 'Poppins'; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 15px; display: block; }
-        .title-text h1 { font-size: 68px; line-height: 1.1; margin-bottom: 20px; background: linear-gradient(90deg, #fff, var(--accent-cyan)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-        .title-text p { font-size: 20px; color: var(--text-secondary); line-height: 1.6; margin-bottom: 40px; }
-        .title-meta { border-left: 3px solid var(--accent-cyan); padding-left: 20px; color: var(--text-secondary); font-size: 16px; background: rgba(59, 130, 246, 0.05); padding: 15px 20px; border-radius: 0 8px 8px 0;}
+        .title-text h1 { font-size: 76px; line-height: 1.1; margin-bottom: 20px; background: linear-gradient(90deg, #fff, var(--accent-cyan)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .title-text p { font-size: 22px; color: var(--text-secondary); line-height: 1.6; margin-bottom: 40px; }
+        .title-meta { border-left: 3px solid var(--accent-cyan); padding-left: 20px; color: var(--text-secondary); font-size: 18px; background: rgba(59, 130, 246, 0.05); padding: 15px 20px; border-radius: 0 8px 8px 0;}
         .title-meta p { margin-bottom: 5px; }
         .title-meta strong { color: var(--text-primary); font-family: 'Poppins'; }
 
         .dash-anim { width: 480px; height: 380px; background: var(--bg-card); border-radius: 16px; border: 1px solid var(--border-color); padding: 25px; display: flex; flex-direction: column; gap: 15px; position: relative; overflow: hidden; box-shadow: 0 15px 40px rgba(0,0,0,0.5); backdrop-filter: blur(15px); }
         .dash-row { display: flex; gap: 15px; }
-        .dash-box { background: rgba(255,255,255,0.05); border-radius: 8px; flex: 1; height: 90px; position: relative; overflow: hidden; display: flex; align-items: center; justify-content: center; font-family: 'Poppins'; font-weight: bold; color: var(--accent-cyan); font-size: 24px;}
+        .dash-box { background: rgba(255,255,255,0.05); border-radius: 8px; flex: 1; height: 90px; position: relative; overflow: hidden; display: flex; align-items: center; justify-content: center; font-family: 'Poppins'; font-weight: bold; color: var(--accent-cyan); font-size: 27px;}
         .dash-box::after { content: ''; position: absolute; top: 0; left: -100%; width: 50%; height: 100%; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent); animation: sweep 3s infinite linear; }
         @keyframes sweep { 100% { left: 200%; } }
         .dash-chart { flex: 1; background: rgba(255,255,255,0.03); border-radius: 8px; display: flex; align-items: flex-end; padding: 15px; gap: 15px; justify-content: space-around; }
@@ -187,11 +187,11 @@
             70% { box-shadow: 0 0 0 8px rgba(59, 130, 246, 0); }
             100% { box-shadow: 0 0 0 0 rgba(59, 130, 246, 0); }
         }
-        .insight-box { margin-top: 15px; padding: 12px 15px; background: rgba(59,130,246,0.05); border-left: 3px solid var(--accent-cyan); font-size: 14px; color: var(--text-secondary); border-radius: 0 8px 8px 0; animation: subtlePulse 3s infinite; }
+        .insight-box { margin-top: 15px; padding: 12px 15px; background: rgba(59,130,246,0.05); border-left: 3px solid var(--accent-cyan); font-size: 16px; color: var(--text-secondary); border-radius: 0 8px 8px 0; animation: subtlePulse 3s infinite; }
 
-        .kpi-val { font-size: 64px; font-weight: 700; color: var(--accent-emerald); line-height: 1; margin-bottom: 10px; font-family: 'Poppins'; }
-        .kpi-label { font-size: 16px; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 1px; }
-        .kpi-desc { font-size: 14px; color: var(--text-secondary); margin-top: 10px; opacity: 0.8; }
+        .kpi-val { font-size: 72px; font-weight: 700; color: var(--accent-emerald); line-height: 1; margin-bottom: 10px; font-family: 'Poppins'; }
+        .kpi-label { font-size: 18px; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 1px; }
+        .kpi-desc { font-size: 16px; color: var(--text-secondary); margin-top: 10px; opacity: 0.8; }
         
         /* --- FUNNEL ANIMATION --- */
         .funnel-row { position: relative; margin-bottom: 15px; }
@@ -203,11 +203,11 @@
         .slide-container.active .funnel-row:nth-child(5) .funnel-bar { transition-delay: 1.05s; }
 
         /* Label lives outside the clipped .funnel-bar (as a sibling) so the reveal animation never hides it */
-        .funnel-label { position: absolute; top: 50%; transform: translateY(-50%); right: 100%; margin-right: 15px; width: 180px; text-align: right; color: var(--text-secondary); font-size: 16px; white-space: nowrap; }
-        .funnel-pct { position: absolute; right: 15px; color: rgba(255,255,255,0.8); font-size: 14px; }
+        .funnel-label { position: absolute; top: 50%; transform: translateY(-50%); right: 100%; margin-right: 15px; width: 180px; text-align: right; color: var(--text-secondary); font-size: 18px; white-space: nowrap; }
+        .funnel-pct { position: absolute; right: 15px; color: rgba(255,255,255,0.8); font-size: 16px; }
 
-        .callout { background: rgba(139, 92, 246, 0.1); border-left: 4px solid var(--accent-purple); padding: 15px 25px; border-radius: 0 12px 12px 0; color: var(--text-primary); margin-bottom: 25px; font-size: 16px; line-height: 1.6; }
-        .badge { display: inline-block; padding: 5px 12px; border-radius: 20px; font-size: 12px; font-weight: bold; background: rgba(255,255,255,0.1); color: var(--text-primary); margin-bottom: 10px; }
+        .callout { background: rgba(139, 92, 246, 0.1); border-left: 4px solid var(--accent-purple); padding: 15px 25px; border-radius: 0 12px 12px 0; color: var(--text-primary); margin-bottom: 25px; font-size: 18px; line-height: 1.6; }
+        .badge { display: inline-block; padding: 5px 12px; border-radius: 20px; font-size: 13px; font-weight: bold; background: rgba(255,255,255,0.1); color: var(--text-primary); margin-bottom: 10px; }
         .badge-cyan { background: rgba(59,130,246,0.15); color: var(--accent-cyan); }
         .badge-emerald { background: rgba(16,185,129,0.15); color: var(--accent-emerald); }
         .badge-pink { background: rgba(236,72,153,0.15); color: var(--accent-pink); }
@@ -240,7 +240,7 @@
                 <h1>FitTech App Analytics</h1>
                 <p>Assessing fitness app usage, workout behaviour, calorie burn patterns, and engagement to support practical, data-driven personalization.</p>
                 <div style="margin: 22px 0 24px 0; padding: 18px 20px; border-left: 4px solid var(--accent-emerald); background: rgba(16,185,129,0.08); border-radius: 10px; max-width: 640px;">
-                    <p style="font-size: 17px; line-height: 1.55; color: var(--text-primary); margin: 0;"><strong style="color: var(--accent-emerald);">Problem Statement:</strong> FitTech has strong workout activity, but needs to understand what drives engagement, notification response, and purchases so the business can personalize user experiences and improve retention.</p>
+                    <p style="font-size: 19px; line-height: 1.55; color: var(--text-primary); margin: 0;"><strong style="color: var(--accent-emerald);">Problem Statement:</strong> FitTech has strong workout activity, but needs to understand what drives engagement, notification response, and purchases so the business can personalize user experiences and improve retention.</p>
                 </div>
                 <div class="title-meta">
                     <p><strong>Name:</strong> Prasanna</p>
@@ -249,10 +249,10 @@
                 </div>
             </div>
             <div class="dash-anim">
-                <div style="color: var(--text-secondary); font-size: 14px; margin-bottom: -5px; display: flex; justify-content: space-between;"><span>Live App Telemetry</span><span style="color: var(--accent-emerald);"><i class="fa-solid fa-circle-dot"></i> Syncing</span></div>
+                <div style="color: var(--text-secondary); font-size: 16px; margin-bottom: -5px; display: flex; justify-content: space-between;"><span>Live App Telemetry</span><span style="color: var(--accent-emerald);"><i class="fa-solid fa-circle-dot"></i> Syncing</span></div>
                 <div class="dash-row">
-                    <div class="dash-box">100K<br><span style="font-size: 10px; font-weight: normal; color: var(--text-secondary); position: absolute; bottom: 10px;">Workouts</span></div>
-                    <div class="dash-box" style="flex: 0.6; color: var(--accent-purple);">600<br><span style="font-size: 10px; font-weight: normal; color: var(--text-secondary); position: absolute; bottom: 10px;">Users</span></div>
+                    <div class="dash-box">100K<br><span style="font-size: 11px; font-weight: normal; color: var(--text-secondary); position: absolute; bottom: 10px;">Workouts</span></div>
+                    <div class="dash-box" style="flex: 0.6; color: var(--accent-purple);">600<br><span style="font-size: 11px; font-weight: normal; color: var(--text-secondary); position: absolute; bottom: 10px;">Users</span></div>
                 </div>
                 <div class="dash-chart">
                     <div class="dash-bar" style="animation-delay: 0s;"></div>
@@ -269,10 +269,10 @@
         <div class="ambient-glow" style="background: radial-gradient(circle, rgba(16,185,129,0.15) 0%, rgba(0,0,0,0) 70%);"></div>
         <div class="slide-header"><h2>Scope & Dataset Overview</h2></div>
         <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: center;">
-            <p style="font-size: 22px; color: var(--text-primary); text-align: center; max-width: 900px; margin: 0 auto 30px auto; line-height: 1.6;">
+            <p style="font-size: 25px; color: var(--text-primary); text-align: center; max-width: 900px; margin: 0 auto 30px auto; line-height: 1.6;">
                 A comprehensive telemetry dataset capturing granular user behavior across three core pillars: Daily Workout Logs, Wearable Monitoring Data, and In-App Engagement Sessions.
             </p>
-            <p style="font-size: 16px; color: var(--text-secondary); text-align: center; max-width: 800px; margin: 0 auto 50px auto; line-height: 1.5;">
+            <p style="font-size: 18px; color: var(--text-secondary); text-align: center; max-width: 800px; margin: 0 auto 50px auto; line-height: 1.5;">
                 By merging these datasets using unique <code>User_ID</code> keys, we create a unified view of the customer journey—from account creation to workout completion and premium conversion.
             </p>
             <div class="grid-4" style="text-align: center;">
@@ -304,31 +304,31 @@
         <div class="slide-header"><h2>Project Objectives</h2></div>
         <div class="grid-4">
             <div class="card objective-card" style="padding-bottom: 0;">
-                <i class="fa-solid fa-users" style="font-size: 32px; color: var(--accent-cyan); margin-bottom: 15px;"></i>
-                <h3 style="margin-bottom: 8px; font-size: 18px;">1. To Understand the User</h3>
-                <p style="color: var(--text-secondary); font-size: 14px; line-height: 1.5; margin-bottom: 15px;">Analyze demographics, subscriptions, and goals to map the core audience.</p>
-                <div style="margin-top: auto; padding-top: 15px; border-top: 1px solid rgba(255,255,255,0.05); font-size: 13px; color: var(--accent-cyan);"><strong>Why:</strong> Dictates marketing spend.</div>
+                <i class="fa-solid fa-users" style="font-size: 36px; color: var(--accent-cyan); margin-bottom: 15px;"></i>
+                <h3 style="margin-bottom: 8px; font-size: 20px;">1. To Understand the User</h3>
+                <p style="color: var(--text-secondary); font-size: 16px; line-height: 1.5; margin-bottom: 15px;">Analyze demographics, subscriptions, and goals to map the core audience.</p>
+                <div style="margin-top: auto; padding-top: 15px; border-top: 1px solid rgba(255,255,255,0.05); font-size: 15px; color: var(--accent-cyan);"><strong>Why:</strong> Dictates marketing spend.</div>
                 <img src="assets/objective-user.svg" alt="User persona illustration" class="obj-card-image">
             </div>
             <div class="card objective-card" style="padding-bottom: 0;">
-                <i class="fa-solid fa-chart-line" style="font-size: 32px; color: var(--accent-emerald); margin-bottom: 15px;"></i>
-                <h3 style="margin-bottom: 8px; font-size: 18px;">2. To Evaluate Engagement</h3>
-                <p style="color: var(--text-secondary); font-size: 14px; line-height: 1.5; margin-bottom: 15px;">Evaluate feature adoption, session depth, and notification effectiveness.</p>
-                <div style="margin-top: auto; padding-top: 15px; border-top: 1px solid rgba(255,255,255,0.05); font-size: 13px; color: var(--accent-emerald);"><strong>Why:</strong> Identifies UI bottlenecks.</div>
+                <i class="fa-solid fa-chart-line" style="font-size: 36px; color: var(--accent-emerald); margin-bottom: 15px;"></i>
+                <h3 style="margin-bottom: 8px; font-size: 20px;">2. To Evaluate Engagement</h3>
+                <p style="color: var(--text-secondary); font-size: 16px; line-height: 1.5; margin-bottom: 15px;">Evaluate feature adoption, session depth, and notification effectiveness.</p>
+                <div style="margin-top: auto; padding-top: 15px; border-top: 1px solid rgba(255,255,255,0.05); font-size: 15px; color: var(--accent-emerald);"><strong>Why:</strong> Identifies UI bottlenecks.</div>
                 <img src="assets/objective-engagement.svg" alt="Engagement metrics illustration" class="obj-card-image">
             </div>
             <div class="card objective-card" style="padding-bottom: 0;">
-                <i class="fa-solid fa-brain" style="font-size: 32px; color: var(--accent-purple); margin-bottom: 15px;"></i>
-                <h3 style="margin-bottom: 8px; font-size: 18px;">3. To Predict Behavior</h3>
-                <p style="color: var(--text-secondary); font-size: 14px; line-height: 1.5; margin-bottom: 15px;">Build classification and regression models to forecast high-value users.</p>
-                <div style="margin-top: auto; padding-top: 15px; border-top: 1px solid rgba(255,255,255,0.05); font-size: 13px; color: var(--accent-purple);"><strong>Why:</strong> Enables proactive retention.</div>
+                <i class="fa-solid fa-brain" style="font-size: 36px; color: var(--accent-purple); margin-bottom: 15px;"></i>
+                <h3 style="margin-bottom: 8px; font-size: 20px;">3. To Predict Behavior</h3>
+                <p style="color: var(--text-secondary); font-size: 16px; line-height: 1.5; margin-bottom: 15px;">Build classification and regression models to forecast high-value users.</p>
+                <div style="margin-top: auto; padding-top: 15px; border-top: 1px solid rgba(255,255,255,0.05); font-size: 15px; color: var(--accent-purple);"><strong>Why:</strong> Enables proactive retention.</div>
                 <img src="assets/objective-prediction.svg" alt="Predictive analytics illustration" class="obj-card-image">
             </div>
             <div class="card objective-card" style="padding-bottom: 0;">
-                <i class="fa-solid fa-lightbulb" style="font-size: 32px; color: var(--accent-pink); margin-bottom: 15px;"></i>
-                <h3 style="margin-bottom: 8px; font-size: 18px;">4. To Drive Strategy</h3>
-                <p style="color: var(--text-secondary); font-size: 14px; line-height: 1.5; margin-bottom: 15px;">Translate EDA, SQL, and ML outputs into actionable personalization rules.</p>
-                <div style="margin-top: auto; padding-top: 15px; border-top: 1px solid rgba(255,255,255,0.05); font-size: 13px; color: var(--accent-pink);"><strong>Why:</strong> Drives ultimate ROI.</div>
+                <i class="fa-solid fa-lightbulb" style="font-size: 36px; color: var(--accent-pink); margin-bottom: 15px;"></i>
+                <h3 style="margin-bottom: 8px; font-size: 20px;">4. To Drive Strategy</h3>
+                <p style="color: var(--text-secondary); font-size: 16px; line-height: 1.5; margin-bottom: 15px;">Translate EDA, SQL, and ML outputs into actionable personalization rules.</p>
+                <div style="margin-top: auto; padding-top: 15px; border-top: 1px solid rgba(255,255,255,0.05); font-size: 15px; color: var(--accent-pink);"><strong>Why:</strong> Drives ultimate ROI.</div>
                 <img src="assets/objective-strategy.svg" alt="Strategy planning illustration" class="obj-card-image">
             </div>
         </div>
@@ -362,9 +362,9 @@
                 </div>
             </div>
             <div style="display: flex; flex-direction: column; justify-content: center; padding: 40px;">
-                <h3 style="color: var(--accent-emerald); font-size: 26px; margin-bottom: 15px;">The Funnel Reality</h3>
-                <p style="color: var(--text-secondary); font-size: 16px; line-height: 1.6; margin-bottom: 15px;">Baseline app utility is strong, proven by the 75% workout completion rate. Users log in and successfully finish their routines.</p>
-                <p style="color: var(--text-secondary); font-size: 16px; line-height: 1.6; margin-bottom: 25px;">However, the UX falters at proactive engagement. Only 36.5% of users respond to push notifications, severely throttling the top-of-funnel flow toward premium subscription purchases (13.8%).</p>
+                <h3 style="color: var(--accent-emerald); font-size: 29px; margin-bottom: 15px;">The Funnel Reality</h3>
+                <p style="color: var(--text-secondary); font-size: 18px; line-height: 1.6; margin-bottom: 15px;">Baseline app utility is strong, proven by the 75% workout completion rate. Users log in and successfully finish their routines.</p>
+                <p style="color: var(--text-secondary); font-size: 18px; line-height: 1.6; margin-bottom: 25px;">However, the UX falters at proactive engagement. Only 36.5% of users respond to push notifications, severely throttling the top-of-funnel flow toward premium subscription purchases (13.8%).</p>
                 <div class="callout" style="border-left-color: var(--accent-pink); background: rgba(236,72,153,0.1);">
                     <strong>Strategic Mandate:</strong> The 13.8% purchase rate is the key business opportunity. ML is used to predict high-engagement users and guide personalized interventions.
                 </div>
@@ -376,12 +376,12 @@
         <div class="slide-header"><h2>User Profile Analysis</h2></div>
         <div class="grid-2">
             <div class="chart-wrapper">
-                <h3 style="margin-bottom: 10px; font-size: 18px; text-align: center;">Subscription Mix by Region</h3>
+                <h3 style="margin-bottom: 10px; font-size: 20px; text-align: center;">Subscription Mix by Region</h3>
                 <div class="chart-container"><canvas id="regionChart"></canvas></div>
                 <div class="insight-box"><strong>Insight:</strong> Mumbai dominates volume (108 users), but Chennai converts the highest share to Premium (51.3%), with Bangalore close behind (46.5%).</div>
             </div>
             <div class="chart-wrapper">
-                <h3 style="margin-bottom: 10px; font-size: 18px; text-align: center;">Avg Session Duration & Completion by Age</h3>
+                <h3 style="margin-bottom: 10px; font-size: 20px; text-align: center;">Avg Session Duration & Completion by Age</h3>
                 <div class="chart-container"><canvas id="ageBubbleChart"></canvas></div>
                 <div class="insight-box"><strong>Insight:</strong> 26-35 demographic balances high completion with stable duration, dictating a mobile-first UI.</div>
             </div>
@@ -392,12 +392,12 @@
         <div class="slide-header"><h2>Workout & Activity Patterns</h2></div>
         <div class="grid-2">
             <div class="chart-wrapper">
-                <h3 style="margin-bottom: 10px; font-size: 18px; text-align: center;">Avg Calories Burned by Workout Type</h3>
+                <h3 style="margin-bottom: 10px; font-size: 20px; text-align: center;">Avg Calories Burned by Workout Type</h3>
                 <div class="chart-container"><canvas id="calBarChart"></canvas></div>
                 <div class="insight-box"><strong>Insight:</strong> Cardio yields the highest burn (~540 kcal) due to sustained elevated heart rates compared to Strength or Yoga.</div>
             </div>
             <div class="chart-wrapper">
-                <h3 style="margin-bottom: 10px; font-size: 18px; text-align: center;">Avg Calories by Type & Time of Day</h3>
+                <h3 style="margin-bottom: 10px; font-size: 20px; text-align: center;">Avg Calories by Type & Time of Day</h3>
                 <div class="chart-container"><canvas id="calTimeChart"></canvas></div>
                 <div class="insight-box"><strong>Insight:</strong> Morning (45.1%) is the undisputed peak window across all workout modalities.</div>
             </div>
@@ -408,12 +408,12 @@
         <div class="slide-header"><h2>App Engagement Analytics</h2></div>
         <div class="grid-2">
             <div class="chart-wrapper">
-                <h3 style="margin-bottom: 10px; font-size: 18px; text-align: center;">Engagement Trend: Sessions & Duration</h3>
+                <h3 style="margin-bottom: 10px; font-size: 20px; text-align: center;">Engagement Trend: Sessions & Duration</h3>
                 <div class="chart-container"><canvas id="trendChart"></canvas></div>
-                <div class="insight-box"><strong>Context:</strong> The 2023 dip in total sessions reflects post-pandemic normalization, yet average duration remained highly resilient.</div>
+                <div class="insight-box"><strong>Context:</strong> Total sessions have declined steadily every year since 2021 (from ~70K to ~10K by 2025), while average session duration (~17.8-17.9 min) and completion rate (~75%, never dropping below 74.9%) have both stayed remarkably stable — the users who remain are just as engaged and just as likely to finish their workouts, so this is a retention problem, not an engagement-quality problem.</div>
             </div>
             <div class="chart-wrapper">
-                <h3 style="margin-bottom: 10px; font-size: 18px; text-align: center;">Share of Sessions by Feature Used</h3>
+                <h3 style="margin-bottom: 10px; font-size: 20px; text-align: center;">Share of Sessions by Feature Used</h3>
                 <div class="chart-container"><canvas id="featureChart"></canvas></div>
                 <div class="insight-box"><strong>Insight:</strong> 'Workout Tracker' (39.8%) is the core app utility. Any friction here risks the 75% completion rate.</div>
             </div>
@@ -430,18 +430,18 @@
                 <div class="flip-card">
                     <div class="flip-front">
                         <span class="badge badge-cyan">Business Conclusion</span>
-                        <h3 style="font-size: 20px; margin-bottom: 15px; color: var(--accent-emerald);">Workout type changes calorie burn.</h3>
-                        <p style="color: var(--text-secondary); font-size: 15px; line-height: 1.5; flex-grow: 1;">Cardio can be promoted for calorie-focused users because the difference in calories across workout types is statistically significant.</p>
-                        <div style="margin-top: 15px; font-size: 14px; color: var(--accent-cyan); text-align: center; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 10px;"><i class="fa-solid fa-rotate"></i> Hover for hypothesis test</div>
+                        <h3 style="font-size: 22px; margin-bottom: 15px; color: var(--accent-emerald);">Workout type changes calorie burn.</h3>
+                        <p style="color: var(--text-secondary); font-size: 17px; line-height: 1.5; flex-grow: 1;">Cardio can be promoted for calorie-focused users because the difference in calories across workout types is statistically significant.</p>
+                        <div style="margin-top: 15px; font-size: 16px; color: var(--accent-cyan); text-align: center; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 10px;"><i class="fa-solid fa-rotate"></i> Hover for hypothesis test</div>
                     </div>
                     <div class="flip-back">
-                        <h3 style="font-size: 20px; margin-bottom: 15px; color: var(--accent-emerald);">ANOVA Result</h3>
-                        <p style="font-size: 14px; line-height: 1.6; color: var(--text-secondary);"><strong>H₀:</strong> Average calories burned is equal across workout types.</p>
+                        <h3 style="font-size: 22px; margin-bottom: 15px; color: var(--accent-emerald);">ANOVA Result</h3>
+                        <p style="font-size: 16px; line-height: 1.6; color: var(--text-secondary);"><strong>H₀:</strong> Average calories burned is equal across workout types.</p>
                         <div style="background: rgba(0,0,0,0.2); padding: 10px; border-radius: 8px; margin: 15px 0;">
-                            <p style="font-size: 14px; margin-bottom: 5px;"><strong>F-Statistic:</strong> 15,699.11</p>
-                            <p style="font-size: 14px;"><strong>P-Value:</strong> &lt; 0.05</p>
+                            <p style="font-size: 16px; margin-bottom: 5px;"><strong>F-Statistic:</strong> 15,699.11</p>
+                            <p style="font-size: 16px;"><strong>P-Value:</strong> &lt; 0.05</p>
                         </div>
-                        <p style="font-size: 13px; color: var(--accent-emerald);">Reject H₀. Calorie burn varies significantly by workout type.</p>
+                        <p style="font-size: 15px; color: var(--accent-emerald);">Reject H₀. Calorie burn varies significantly by workout type.</p>
                     </div>
                 </div>
             </div>
@@ -449,18 +449,18 @@
                 <div class="flip-card">
                     <div class="flip-front">
                         <span class="badge badge-purple">Business Conclusion</span>
-                        <h3 style="font-size: 20px; margin-bottom: 15px; color: var(--text-secondary);">More clicks do not prove more completions.</h3>
-                        <p style="color: var(--text-secondary); font-size: 15px; line-height: 1.5; flex-grow: 1;">Notification click behavior and workout completion do not show a statistically significant relationship in this dataset.</p>
-                        <div style="margin-top: 15px; font-size: 14px; color: var(--accent-purple); text-align: center; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 10px;"><i class="fa-solid fa-rotate"></i> Hover for hypothesis test</div>
+                        <h3 style="font-size: 22px; margin-bottom: 15px; color: var(--text-secondary);">More clicks do not prove more completions.</h3>
+                        <p style="color: var(--text-secondary); font-size: 17px; line-height: 1.5; flex-grow: 1;">Notification click behavior and workout completion do not show a statistically significant relationship in this dataset.</p>
+                        <div style="margin-top: 15px; font-size: 16px; color: var(--accent-purple); text-align: center; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 10px;"><i class="fa-solid fa-rotate"></i> Hover for hypothesis test</div>
                     </div>
                     <div class="flip-back">
-                        <h3 style="font-size: 20px; margin-bottom: 15px; color: var(--text-secondary);">Chi-Square Result</h3>
-                        <p style="font-size: 14px; line-height: 1.6; color: var(--text-secondary);"><strong>H₀:</strong> Notification clicks and workout completion are independent.</p>
+                        <h3 style="font-size: 22px; margin-bottom: 15px; color: var(--text-secondary);">Chi-Square Result</h3>
+                        <p style="font-size: 16px; line-height: 1.6; color: var(--text-secondary);"><strong>H₀:</strong> Notification clicks and workout completion are independent.</p>
                         <div style="background: rgba(0,0,0,0.2); padding: 10px; border-radius: 8px; margin: 15px 0;">
-                            <p style="font-size: 14px; margin-bottom: 5px;"><strong>χ²:</strong> 0.91</p>
-                            <p style="font-size: 14px;"><strong>P-Value:</strong> 0.3395</p>
+                            <p style="font-size: 16px; margin-bottom: 5px;"><strong>χ²:</strong> 0.91</p>
+                            <p style="font-size: 16px;"><strong>P-Value:</strong> 0.3395</p>
                         </div>
-                        <p style="font-size: 13px; color: var(--text-secondary);">Fail to reject H₀. No significant relationship was found.</p>
+                        <p style="font-size: 15px; color: var(--text-secondary);">Fail to reject H₀. No significant relationship was found.</p>
                     </div>
                 </div>
             </div>
@@ -468,19 +468,20 @@
                 <div class="flip-card">
                     <div class="flip-front">
                         <span class="badge badge-pink">Business Conclusion</span>
-                        <h3 style="font-size: 20px; margin-bottom: 15px; color: var(--text-secondary);">Clicks do not mean longer sessions.</h3>
-                        <p style="color: var(--text-secondary); font-size: 15px; line-height: 1.5; flex-grow: 1;">Users who clicked notifications did not spend statistically longer time in the app, so message quality matters more than click volume.</p>
-                        <div style="margin-top: 15px; font-size: 14px; color: var(--accent-pink); text-align: center; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 10px;"><i class="fa-solid fa-rotate"></i> Hover for hypothesis test</div>
+                        <h3 style="font-size: 22px; margin-bottom: 15px; color: var(--text-secondary);">Clicks do not mean longer sessions.</h3>
+                        <p style="color: var(--text-secondary); font-size: 17px; line-height: 1.5; flex-grow: 1;">Users who clicked notifications did not spend statistically longer time in the app, so message quality matters more than click volume.</p>
+                        <div style="margin-top: 15px; font-size: 16px; color: var(--accent-pink); text-align: center; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 10px;"><i class="fa-solid fa-rotate"></i> Hover for hypothesis test</div>
                     </div>
                     <div class="flip-back">
-                        <h3 style="font-size: 20px; margin-bottom: 15px; color: var(--text-secondary);">Welch T-Test Result</h3>
-                        <p style="font-size: 14px; line-height: 1.6; color: var(--text-secondary);"><strong>H₀:</strong> Average session duration is equal for clicked vs not-clicked users.</p>
+                        <h3 style="font-size: 22px; margin-bottom: 15px; color: var(--text-secondary);">Welch T-Test Result</h3>
+                        <p style="font-size: 16px; line-height: 1.6; color: var(--text-secondary);"><strong>H₀:</strong> Average session duration is equal for clicked vs not-clicked users.</p>
                         <div style="background: rgba(0,0,0,0.2); padding: 10px; border-radius: 8px; margin: 15px 0;">
-                            <p style="font-size: 14px; margin-bottom: 5px;"><strong>T-Statistic:</strong> 1.22</p>
-                            <p style="font-size: 14px; margin-bottom: 5px;"><strong>P-Value:</strong> 0.2222</p>
-                            <p style="font-size: 14px;"><strong>Means:</strong> 17.84 vs 17.82 min</p>
+                            <p style="font-size: 16px; margin-bottom: 5px;"><strong>T-Statistic:</strong> 1.22</p>
+                            <p style="font-size: 16px; margin-bottom: 5px;"><strong>P-Value:</strong> 0.2222</p>
+                            <p style="font-size: 16px; margin-bottom: 5px;"><strong>Means:</strong> 17.84 vs 17.82 min</p>
+                            <p style="font-size: 16px;"><strong>Sample Size:</strong> n = 73,024 clicked, 126,976 not clicked</p>
                         </div>
-                        <p style="font-size: 13px; color: var(--text-secondary);">Fail to reject H₀. No significant duration lift was found.</p>
+                        <p style="font-size: 15px; color: var(--text-secondary);">Fail to reject H₀. No significant duration lift was found.</p>
                     </div>
                 </div>
             </div>
@@ -489,34 +490,53 @@
 
     <div class="slide-container">
         <div class="slide-header"><h2>SQL Database Automations</h2></div>
-        <p style="color: var(--text-secondary); font-size: 18px; margin-bottom: 25px; line-height: 1.5;">Robust SQL structures were built to transition the backend from static CSV files into an automated, self-refreshing analytics pipeline for the business team.</p>
-        <div class="grid-2" style="gap: 25px; height: 100%;">
-            <div class="card" style="padding: 25px; justify-content: center;">
-                <span style="color: var(--accent-cyan); font-size: 12px; font-weight: bold; letter-spacing: 1px; margin-bottom: 10px; display: block;">01 / VIEW</span>
-                <h3 style="font-size: 20px; margin-bottom: 15px;">Subscription Performance</h3>
-                <p style="font-size: 15px; color: var(--text-secondary); margin-bottom: 15px; line-height: 1.5;"><strong>Mechanics:</strong> Pre-calculates KPIs across Free, Trial, and Premium tiers using a virtual table.</p>
-                <p style="font-size: 14px; color: var(--accent-cyan);"><strong>Benefit:</strong> Reduces complex query time by 80%. Analysts can query insights instantly without writing complex JOINs.</p>
+        <p style="color: var(--text-secondary); font-size: 20px; margin-bottom: 15px; line-height: 1.4;">Robust SQL structures were built to transition the backend from static CSV files into an automated, self-refreshing analytics pipeline for the business team.</p>
+        <div class="grid-2" style="gap: 16px; height: 100%;">
+            <div class="card" style="padding: 16px; justify-content: center;">
+                <span style="color: var(--accent-cyan); font-size: 13px; font-weight: bold; letter-spacing: 1px; margin-bottom: 6px; display: block;">01 / VIEW</span>
+                <h3 style="font-size: 22px; margin-bottom: 8px;">Subscription Performance</h3>
+                <p style="font-size: 17px; color: var(--text-secondary); margin-bottom: 8px; line-height: 1.3;"><strong>Mechanics:</strong> Pre-calculates KPIs across Free, Trial, and Premium tiers using a virtual table.</p>
+                <p style="font-size: 16px; color: var(--accent-cyan); line-height: 1.3;"><strong>Benefit:</strong> Reduces complex query time by 80%. Analysts can query insights instantly without writing complex JOINs.</p>
             </div>
-            <div class="card" style="padding: 25px; justify-content: center;">
-                <span style="color: var(--accent-emerald); font-size: 12px; font-weight: bold; letter-spacing: 1px; margin-bottom: 10px; display: block;">02 / TRIGGER</span>
-                <h3 style="font-size: 20px; margin-bottom: 15px;">Real-Time Activity Sync</h3>
-                <p style="font-size: 15px; color: var(--text-secondary); margin-bottom: 15px; line-height: 1.5;"><strong>Mechanics:</strong> Leverages the <code>DELIMITER</code> and <code>NEW</code> keywords in an <code>AFTER INSERT</code> trigger to continuously update the <code>activity_summary</code> table.</p>
-                <p style="font-size: 14px; color: var(--accent-emerald);"><strong>Benefit:</strong> Ensures workout metrics shown on frontend dashboards are accurate to the millisecond without manual batch scripts.</p>
+            <div class="card" style="padding: 16px; justify-content: center;">
+                <span style="color: var(--accent-emerald); font-size: 13px; font-weight: bold; letter-spacing: 1px; margin-bottom: 6px; display: block;">02 / TRIGGER</span>
+                <h3 style="font-size: 22px; margin-bottom: 8px;">Real-Time Activity Sync</h3>
+                <p style="font-size: 17px; color: var(--text-secondary); margin-bottom: 8px; line-height: 1.3;"><strong>Mechanics:</strong> Leverages the <code>DELIMITER</code> and <code>NEW</code> keywords in an <code>AFTER INSERT</code> trigger to continuously update the <code>activity_summary</code> table.</p>
+                <p style="font-size: 16px; color: var(--accent-emerald); line-height: 1.3;"><strong>Benefit:</strong> Ensures workout metrics shown on frontend dashboards are accurate to the millisecond without manual batch scripts.</p>
             </div>
-            <div class="card" style="padding: 25px; justify-content: center;">
-                <span style="color: var(--accent-purple); font-size: 12px; font-weight: bold; letter-spacing: 1px; margin-bottom: 10px; display: block;">03 / STORED PROCEDURE</span>
-                <h3 style="font-size: 20px; margin-bottom: 15px;">Insight Reporting Generator</h3>
-                <p style="font-size: 15px; color: var(--text-secondary); margin-bottom: 15px; line-height: 1.5;"><strong>Mechanics:</strong> Executes a unified script encapsulating complex conversion logic.</p>
-                <p style="font-size: 14px; color: var(--accent-purple);"><strong>Benefit:</strong> Empowers non-technical managers to retrieve formatted subscription insights using one simple <code>CALL</code> command.</p>
+            <div class="card" style="padding: 16px; justify-content: center;">
+                <span style="color: var(--accent-purple); font-size: 13px; font-weight: bold; letter-spacing: 1px; margin-bottom: 6px; display: block;">03 / STORED PROCEDURE</span>
+                <h3 style="font-size: 22px; margin-bottom: 8px;">Insight Reporting Generator</h3>
+                <p style="font-size: 17px; color: var(--text-secondary); margin-bottom: 8px; line-height: 1.3;"><strong>Mechanics:</strong> Executes a unified script encapsulating complex conversion logic.</p>
+                <p style="font-size: 16px; color: var(--accent-purple); line-height: 1.3;"><strong>Benefit:</strong> Empowers non-technical managers to retrieve formatted subscription insights using one simple <code>CALL</code> command.</p>
             </div>
-            <div class="card" style="padding: 25px; justify-content: center;">
-                <span style="color: var(--accent-pink); font-size: 12px; font-weight: bold; letter-spacing: 1px; margin-bottom: 10px; display: block;">04 / EVENT SCHEDULER</span>
-                <h3 style="font-size: 20px; margin-bottom: 15px;">Daily Engagement Refresh</h3>
-                <p style="font-size: 15px; color: var(--text-secondary); margin-bottom: 15px; line-height: 1.5;"><strong>Mechanics:</strong> Truncates and rebuilds the engagement summary every 24 hours at midnight.</p>
-                <p style="font-size: 14px; color: var(--accent-pink);"><strong>Benefit:</strong> Guarantees that the PowerBI dashboards tracking the 75% completion rate start fresh every morning.</p>
+            <div class="card" style="padding: 16px; justify-content: center;">
+                <span style="color: var(--accent-pink); font-size: 13px; font-weight: bold; letter-spacing: 1px; margin-bottom: 6px; display: block;">04 / EVENT SCHEDULER</span>
+                <h3 style="font-size: 22px; margin-bottom: 8px;">Daily Engagement Refresh</h3>
+                <p style="font-size: 17px; color: var(--text-secondary); margin-bottom: 8px; line-height: 1.3;"><strong>Mechanics:</strong> Truncates and rebuilds the engagement summary every 24 hours at midnight.</p>
+                <p style="font-size: 16px; color: var(--accent-pink); line-height: 1.3;"><strong>Benefit:</strong> Guarantees that the PowerBI dashboards tracking the 75% completion rate start fresh every morning.</p>
             </div>
-            <div class="callout" style="grid-column: 1 / -1; background: rgba(59,130,246,0.1); border-left-color: var(--accent-cyan); margin-top: 10px; margin-bottom: 0;">
+            <div class="callout" style="grid-column: 1 / -1; background: rgba(59,130,246,0.1); border-left-color: var(--accent-cyan); margin-top: 4px; margin-bottom: 0; padding: 10px 20px;">
                 <strong>Architecture Note:</strong> While parsing unstructured wearable data via JSON documents in a NoSQL environment like MongoDB offers distinct scaling advantages, this relational SQL setup was explicitly designed to guarantee stateful, millisecond-accurate aggregations for our business reporting.
+            </div>
+        </div>
+    </div>
+
+    <div class="slide-container">
+        <div class="slide-header"><h2>A Real, Validated Engagement Signal</h2></div>
+        <div class="grid-2" style="height: calc(100% - 80px);">
+            <div style="display: flex; flex-direction: column; justify-content: center; padding-right: 30px;">
+                <h3 style="color: var(--accent-emerald); font-size: 29px; margin-bottom: 15px;">Discovering a Genuine Engagement Label</h3>
+                <p style="color: var(--text-secondary); font-size: 18px; line-height: 1.6; margin-bottom: 15px;">Every user carries a business-assigned <strong style="color: var(--text-primary);">Engagement Level</strong> — Low, Medium, or High — perfectly balanced at 200 users each.</p>
+                <p style="color: var(--text-secondary); font-size: 18px; line-height: 1.6; margin-bottom: 25px;">This isn't an arbitrary label: it lines up cleanly with real behavior. High-tier users average <strong style="color: var(--text-primary);">178 workouts and 359 app sessions</strong>, versus just 155 workouts and 306 sessions for Low-tier users — a clear, monotonic step up at every tier.</p>
+                <div class="callout" style="border-left-color: var(--accent-emerald); background: rgba(16,185,129,0.1);">
+                    <strong>Why this matters:</strong> Because the label is real and validated, it becomes the classification target for the machine learning models next — not an artificial threshold, but the tier the business actually cares about.
+                </div>
+            </div>
+            <div class="chart-wrapper">
+                <h3 style="margin-bottom: 10px; font-size: 20px; text-align: center;">Behavior by Engagement Tier</h3>
+                <div class="chart-container"><canvas id="engagementTierChart"></canvas></div>
+                <div class="insight-box"><strong>Insight:</strong> Workout frequency and session count rise in lockstep with the real engagement label (r ≈ 0.73 with workouts, 0.71 with sessions) — strong evidence it reflects genuine behavior, not a placeholder.</div>
             </div>
         </div>
     </div>
@@ -525,32 +545,32 @@
         <div class="slide-header"><h2>Predictive Modeling (ML) Approach</h2></div>
         <div class="grid-2" style="align-items: center; gap: 40px;">
             <div>
-                <h3 style="font-size: 30px; color: var(--accent-cyan); margin-bottom: 25px; line-height: 1.2;">Using Data to Predict the Future</h3>
-                <p style="font-size: 17px; color: var(--text-secondary); line-height: 1.6; margin-bottom: 25px;">We apply baseline Machine Learning not to perform magic, but to achieve two very specific, measurable business goals:</p>
+                <h3 style="font-size: 34px; color: var(--accent-cyan); margin-bottom: 25px; line-height: 1.2;">Using Data to Predict the Future</h3>
+                <p style="font-size: 19px; color: var(--text-secondary); line-height: 1.6; margin-bottom: 25px;">We apply baseline Machine Learning not to perform magic, but to achieve two very specific, measurable business goals:</p>
                 <ul style="list-style: none; padding: 0;">
-                    <li style="margin-bottom: 20px; font-size: 16px; display: flex; gap: 15px; align-items: flex-start; background: rgba(255,255,255,0.02); padding: 15px; border-radius: 8px;">
-                        <i class="fa-solid fa-bullseye" style="color: var(--accent-emerald); font-size: 20px; margin-top: 2px;"></i>
+                    <li style="margin-bottom: 20px; font-size: 18px; display: flex; gap: 15px; align-items: flex-start; background: rgba(255,255,255,0.02); padding: 15px; border-radius: 8px;">
+                        <i class="fa-solid fa-bullseye" style="color: var(--accent-emerald); font-size: 22px; margin-top: 2px;"></i>
                         <div>
                             <strong style="display: block; margin-bottom: 5px; color: var(--text-primary);">1. Classification (Targeting)</strong>
-                            <span style="color: var(--text-secondary); font-size: 15px;">Identify users highly likely to stay engaged, allowing us to focus retention and reward budgets accurately.</span>
+                            <span style="color: var(--text-secondary); font-size: 17px;">Predict each user's real engagement tier (Low / Medium / High), allowing us to focus retention and reward budgets accurately by tier.</span>
                         </div>
                     </li>
-                    <li style="margin-bottom: 20px; font-size: 16px; display: flex; gap: 15px; align-items: flex-start; background: rgba(255,255,255,0.02); padding: 15px; border-radius: 8px;">
-                        <i class="fa-solid fa-chart-gantt" style="color: var(--accent-blue); font-size: 20px; margin-top: 2px;"></i>
+                    <li style="margin-bottom: 20px; font-size: 18px; display: flex; gap: 15px; align-items: flex-start; background: rgba(255,255,255,0.02); padding: 15px; border-radius: 8px;">
+                        <i class="fa-solid fa-chart-gantt" style="color: var(--accent-blue); font-size: 22px; margin-top: 2px;"></i>
                         <div>
                             <strong style="display: block; margin-bottom: 5px; color: var(--text-primary);">2. Regression (Valuation)</strong>
-                            <span style="color: var(--text-secondary); font-size: 15px;">Estimate a user's total session time quantitatively to forecast lifetime value (LTV).</span>
+                            <span style="color: var(--text-secondary); font-size: 17px;">Estimate a user's total session time quantitatively to forecast lifetime value (LTV).</span>
                         </div>
                     </li>
                 </ul>
             </div>
             <div class="card" style="background: rgba(59,130,246,0.03); border-color: var(--accent-cyan); text-align: center; padding: 40px;">
-                <i class="fa-solid fa-microchip" style="font-size: 56px; color: var(--accent-cyan); margin-bottom: 25px;"></i>
-                <h3 style="font-size: 24px; margin-bottom: 15px;">Data Pipeline & Preparation</h3>
-                <p style="font-size: 15px; color: var(--text-secondary); line-height: 1.6; margin-bottom: 20px;">
-                    Target definition: "High Engagement" = Total session time > median.<br>Dataset: 600 users, balanced.
+                <i class="fa-solid fa-microchip" style="font-size: 63px; color: var(--accent-cyan); margin-bottom: 25px;"></i>
+                <h3 style="font-size: 27px; margin-bottom: 15px;">Data Pipeline & Preparation</h3>
+                <p style="font-size: 17px; color: var(--text-secondary); line-height: 1.6; margin-bottom: 20px;">
+                    Target: real business-assigned <code>User_Engagement_Level</code> (Low/Medium/High).<br>Dataset: 600 users, perfectly balanced (200 each).
                 </p>
-                <div style="background: rgba(0,0,0,0.3); padding: 15px; border-radius: 8px; font-size: 14px; color: var(--text-secondary); text-align: left;">
+                <div style="background: rgba(0,0,0,0.3); padding: 15px; border-radius: 8px; font-size: 16px; color: var(--text-secondary); text-align: left;">
                     <div style="margin-bottom: 8px;"><strong style="color: var(--accent-emerald);">1. Split:</strong> 80% Train / 20% Test</div>
                     <div style="margin-bottom: 8px;"><strong style="color: var(--accent-emerald);">2. Scale:</strong> StandardScaler applied to normalize numerical variance.</div>
                     <div><strong style="color: var(--accent-emerald);">3. Encode:</strong> OneHotEncoder for categorical features (Gender, Region, Subscription, Goal, Workout Type).</div>
@@ -561,53 +581,53 @@
 
     <div class="slide-container">
         <div class="slide-header"><h2>ML Classification Models Evaluated</h2></div>
-        <p style="text-align: center; color: var(--text-secondary); margin-bottom: 20px; font-size: 16px;">Prediction target: <strong style="color: var(--accent-emerald);">High_Engagement_Flag</strong>, where users with Total Session Time ≥ 5,943 minutes are marked as high engagement. Hover cards for actual metrics and model meaning.</p>
+        <p style="text-align: center; color: var(--text-secondary); margin-bottom: 20px; font-size: 18px;">Prediction target: <strong style="color: var(--accent-emerald);">User_Engagement_Level</strong> — the real, business-assigned Low / Medium / High tier (200 users each), validated against actual behavior. Hover cards for actual metrics and model meaning.</p>
         <div class="grid-3" style="height: calc(100% - 125px);">
             <div class="flip-container">
                 <div class="flip-card">
                     <div class="flip-front" style="justify-content: center; align-items: center; text-align: center; border-color: var(--accent-emerald);">
-                        <i class="fa-solid fa-crown" style="font-size: 42px; color: var(--accent-emerald); margin-bottom: 18px;"></i>
+                        <i class="fa-solid fa-crown" style="font-size: 47px; color: var(--accent-emerald); margin-bottom: 18px;"></i>
                         <span class="badge badge-emerald">Business Recommended Model</span>
-                        <h3 style="font-size: 24px; margin-bottom: 12px;">Logistic Regression</h3>
-                        <p style="color: var(--text-secondary); font-size: 15px; line-height: 1.5; padding: 0 10px;">Chosen as the business winner because it balances performance with clear explainability for stakeholders.</p>
+                        <h3 style="font-size: 27px; margin-bottom: 12px;">Logistic Regression</h3>
+                        <p style="color: var(--text-secondary); font-size: 17px; line-height: 1.5; padding: 0 10px;">Chosen as the business winner because it balances performance with clear explainability for stakeholders.</p>
                     </div>
                     <div class="flip-back">
-                        <h3 style="font-size: 20px; margin-bottom: 12px; color: var(--accent-emerald);">Why It Wins for Business</h3>
-                        <p style="font-size: 13px; color: var(--text-secondary); line-height: 1.5;"><strong>Accuracy:</strong> 72.5% &nbsp;|&nbsp; <strong>High-engagement recall:</strong> 73%</p>
-                        <p style="font-size: 13px; color: var(--text-secondary); line-height: 1.5;">Correctly identifies 44 of 60 truly high-engagement users and 43 of 60 truly low-engagement users, with 17 false alarms and 16 missed high-engagement users.</p>
-                        <p style="font-size: 13px; color: var(--text-secondary); line-height: 1.45;"><strong>Reason to choose this model:</strong> Its coefficients are directly explainable, so the business can defend exactly which behaviors raise or lower high-engagement probability, not just receive a prediction.</p>
-                        <p style="font-size: 13px; color: var(--accent-emerald); line-height: 1.45;"><strong>Important inputs:</strong> total workouts dominates by a wide margin, followed distantly by Premium subscription; purchase rate, completion rate, age group, and goal type each contribute much smaller effects.</p>
+                        <h3 style="font-size: 22px; margin-bottom: 12px; color: var(--accent-emerald);">Why It Wins for Business</h3>
+                        <p style="font-size: 15px; color: var(--text-secondary); line-height: 1.5;"><strong>Accuracy:</strong> 67.5% &nbsp;|&nbsp; <strong>vs. 33% random-guess baseline</strong> (3 classes)</p>
+                        <p style="font-size: 15px; color: var(--text-secondary); line-height: 1.5;">Correctly identifies 27 of 40 Low, 24 of 40 Medium, and 30 of 40 High-engagement users — and critically, never once confuses a Low-engagement user for a High-engagement one, or vice versa.</p>
+                        <p style="font-size: 15px; color: var(--text-secondary); line-height: 1.45;"><strong>Reason to choose this model:</strong> Virtually tied with Decision Tree on accuracy (67.5% vs 68.3%), but its per-class coefficients are directly explainable — the business can defend exactly which behaviors drive a user toward each tier, not just receive a prediction.</p>
+                        <p style="font-size: 15px; color: var(--accent-emerald); line-height: 1.45;"><strong>Important inputs (for the High tier):</strong> total workouts dominates by a wide margin, followed by completion rate and notification click rate; purchase rate has almost no effect once workout frequency is accounted for.</p>
                     </div>
                 </div>
             </div>
             <div class="flip-container">
                 <div class="flip-card">
                     <div class="flip-front" style="justify-content: center; align-items: center; text-align: center;">
-                        <i class="fa-solid fa-network-wired" style="font-size: 42px; color: var(--accent-purple); margin-bottom: 18px;"></i>
-                        <h3 style="font-size: 24px; margin-bottom: 12px;">KNN Classifier</h3>
-                        <p style="color: var(--text-secondary); font-size: 15px; line-height: 1.5; padding: 0 10px;">Predicts engagement by comparing each user with similar users after scaling.</p>
+                        <i class="fa-solid fa-network-wired" style="font-size: 47px; color: var(--accent-purple); margin-bottom: 18px;"></i>
+                        <h3 style="font-size: 27px; margin-bottom: 12px;">KNN Classifier</h3>
+                        <p style="color: var(--text-secondary); font-size: 17px; line-height: 1.5; padding: 0 10px;">Predicts engagement by comparing each user with similar users after scaling.</p>
                     </div>
                     <div class="flip-back">
-                        <h3 style="font-size: 20px; margin-bottom: 12px; color: var(--accent-purple);">Actual Metrics</h3>
-                        <p style="font-size: 13px; color: var(--text-secondary); line-height: 1.5;"><strong>Accuracy:</strong> 64.2% &nbsp;|&nbsp; <strong>High-engagement recall:</strong> 70%</p>
-                        <p style="font-size: 13px; color: var(--text-secondary); line-height: 1.5;">Correctly finds 42 of 60 high-engagement users, but only 35 of 60 low-engagement users — the weakest of the three at ruling out low-engagement users, with 25 false alarms.</p>
-                        <p style="font-size: 13px; color: var(--text-secondary); line-height: 1.45;"><strong>Reason not chosen:</strong> KNN has no coefficients to explain — it classifies by comparing each user to similar users, so the business can see that it predicted something, but not why.</p>
+                        <h3 style="font-size: 22px; margin-bottom: 12px; color: var(--accent-purple);">Actual Metrics</h3>
+                        <p style="font-size: 15px; color: var(--text-secondary); line-height: 1.5;"><strong>Accuracy:</strong> 43.3% &nbsp;|&nbsp; <strong>weakest of the three</strong></p>
+                        <p style="font-size: 15px; color: var(--text-secondary); line-height: 1.5;">Correctly finds 23 of 40 Low and 22 of 40 High users, but only 7 of 40 Medium users — and unlike the other two models, it does sometimes confuse Low directly with High (8 such cases).</p>
+                        <p style="font-size: 15px; color: var(--text-secondary); line-height: 1.45;"><strong>Reason not chosen:</strong> No coefficients to explain — it classifies by comparing each user to similar users — and it's also the least accurate and least reliable of the three.</p>
                     </div>
                 </div>
             </div>
             <div class="flip-container">
                 <div class="flip-card">
                     <div class="flip-front" style="justify-content: center; align-items: center; text-align: center;">
-                        <i class="fa-solid fa-diagram-project" style="font-size: 42px; color: var(--accent-pink); margin-bottom: 18px;"></i>
+                        <i class="fa-solid fa-diagram-project" style="font-size: 47px; color: var(--accent-pink); margin-bottom: 18px;"></i>
                         <span class="badge badge-pink">Highest Accuracy</span>
-                        <h3 style="font-size: 24px; margin-bottom: 12px;">Decision Tree</h3>
-                        <p style="color: var(--text-secondary); font-size: 15px; line-height: 1.5; padding: 0 10px;">Best raw accuracy, but less stable for a small dataset if the tree grows too much.</p>
+                        <h3 style="font-size: 27px; margin-bottom: 12px;">Decision Tree</h3>
+                        <p style="color: var(--text-secondary); font-size: 17px; line-height: 1.5; padding: 0 10px;">Best raw accuracy, but less stable for a small dataset if the tree grows too much.</p>
                     </div>
                     <div class="flip-back">
-                        <h3 style="font-size: 20px; margin-bottom: 12px; color: var(--accent-pink);">Actual Metrics</h3>
-                        <p style="font-size: 13px; color: var(--text-secondary); line-height: 1.5;"><strong>Accuracy:</strong> 77.5% &nbsp;|&nbsp; <strong>High-engagement recall:</strong> 73%</p>
-                        <p style="font-size: 13px; color: var(--text-secondary); line-height: 1.5;">Correctly finds 44 of 60 high-engagement users and 49 of 60 low-engagement users — the highest raw accuracy of the three, with only 11 false alarms.</p>
-                        <p style="font-size: 13px; color: var(--text-secondary); line-height: 1.45;"><strong>Reason not chosen:</strong> Despite the highest accuracy, a single decision tree is less stable on a 600-user dataset, and its branching rules are harder for stakeholders to generalize from than Logistic Regression's coefficients.</p>
+                        <h3 style="font-size: 22px; margin-bottom: 12px; color: var(--accent-pink);">Actual Metrics</h3>
+                        <p style="font-size: 15px; color: var(--text-secondary); line-height: 1.5;"><strong>Accuracy:</strong> 68.3% &nbsp;|&nbsp; <strong>highest raw accuracy</strong></p>
+                        <p style="font-size: 15px; color: var(--text-secondary); line-height: 1.5;">Correctly finds 30 of 40 Low, 21 of 40 Medium, and 31 of 40 High users — and like Logistic Regression, it also never confuses Low directly with High.</p>
+                        <p style="font-size: 15px; color: var(--text-secondary); line-height: 1.45;"><strong>Reason not chosen:</strong> Leads by less than 1 percentage point, and its branching rules are harder for stakeholders to generalize from than Logistic Regression's coefficients — not enough of an edge to give up explainability.</p>
                     </div>
                 </div>
             </div>
@@ -618,16 +638,54 @@
         <div class="slide-header"><h2>ML Drivers: What Impacts Engagement?</h2></div>
         <div class="grid-2" style="height: calc(100% - 80px);">
             <div style="display: flex; flex-direction: column; justify-content: center; padding-right: 30px;">
-                <h3 style="color: var(--accent-emerald); font-size: 26px; margin-bottom: 15px;">The Real Driver: Workout Frequency</h3>
-                <p style="color: var(--text-secondary); font-size: 16px; line-height: 1.6; margin-bottom: 15px;">We selected Logistic Regression not just for its 72.5% accuracy, but for its perfect business explainability.</p>
-                <p style="color: var(--text-secondary); font-size: 16px; line-height: 1.6; margin-bottom: 25px;">The model's coefficients show <strong style="color: var(--text-primary);">raw workout frequency dwarfs every other factor</strong> — its effect is over 3x the next-largest driver, Premium subscription. Once workout frequency is in the model, Completion Rate and Purchase Rate actually carry small negative coefficients, meaning their simple correlation with engagement is already explained by how often a user works out.</p>
+                <h3 style="color: var(--accent-emerald); font-size: 29px; margin-bottom: 15px;">The Real Driver: Workout Frequency</h3>
+                <p style="color: var(--text-secondary); font-size: 18px; line-height: 1.6; margin-bottom: 15px;">We selected Logistic Regression not just for its 67.5% accuracy (virtually tied with Decision Tree's 68.3%), but for its perfect business explainability — it shows exactly what pushes a user into each real engagement tier.</p>
+                <p style="color: var(--text-secondary); font-size: 18px; line-height: 1.6; margin-bottom: 25px;">Looking at what drives the <strong style="color: var(--text-primary);">High</strong> tier specifically: <strong style="color: var(--text-primary);">workout frequency dominates</strong> — more than 2x the next driver, Completion Rate. Notification Click Rate also pushes users toward High engagement. Purchase Rate, however, carries almost no weight here: buying behavior and being a highly-engaged (active) user are largely independent things in this data.</p>
                 <div class="callout" style="border-left-color: var(--accent-cyan); background: rgba(59,130,246,0.1);">
-                    <strong>Strategic Mandate:</strong> Drive workout frequency and Premium conversion first — together they are the two strongest mathematical predictors of high engagement, far ahead of notification or completion-rate effects.
+                    <strong>Strategic Mandate:</strong> Drive workout frequency, completion, and notification response to grow the real High-engagement segment — purchase-focused campaigns are a separate, weakly-related lever and shouldn't be expected to move this metric.
                 </div>
             </div>
             <div class="chart-wrapper">
-                <h3 style="margin-bottom: 10px; font-size: 18px; text-align: center;">Logistic Regression: Feature Coefficients</h3>
+                <h3 style="margin-bottom: 10px; font-size: 20px; text-align: center;">Logistic Regression: Drivers of the 'High' Tier</h3>
                 <div class="chart-container" style="height: 100%; min-height: 300px;"><canvas id="mlFeatureChart"></canvas></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide-container">
+        <div class="slide-header"><h2>Linear Regression: Predicting Session Time</h2></div>
+        <div class="grid-2" style="height: calc(100% - 80px);">
+            <div style="display: flex; flex-direction: column; justify-content: center; padding-right: 30px;">
+                <h3 style="color: var(--accent-blue); font-size: 29px; margin-bottom: 15px;">From Categories to a Number</h3>
+                <p style="color: var(--text-secondary); font-size: 18px; line-height: 1.6; margin-bottom: 15px;">Classification predicts a tier; regression predicts an actual quantity. Here, Linear Regression estimates a user's <strong style="color: var(--text-primary);">Total Session Time</strong> directly, using the same demographic and behavioral inputs as the classification models.</p>
+                <p style="color: var(--text-secondary); font-size: 18px; line-height: 1.6; margin-bottom: 25px;">On unseen test users, predictions are typically off by about <strong style="color: var(--text-primary);">298 minutes (MAE)</strong>, and the model explains <strong style="color: var(--text-primary);">55% of the variation (R²)</strong> in session time — a solid baseline, not a production-grade forecast.</p>
+                <div class="callout" style="border-left-color: var(--accent-blue); background: rgba(59,130,246,0.1);">
+                    <strong>Business use:</strong> Estimate expected engagement depth per user to support lifetime-value planning and capacity forecasting, alongside the Low/Medium/High classification.
+                </div>
+            </div>
+            <div class="chart-wrapper">
+                <h3 style="margin-bottom: 10px; font-size: 20px; text-align: center;">Actual vs Predicted Session Time</h3>
+                <div class="chart-container"><canvas id="regressionScatterChart"></canvas></div>
+                <div class="insight-box"><strong>Insight:</strong> MAE ≈ 298 min &nbsp;|&nbsp; RMSE ≈ 361 min &nbsp;|&nbsp; R² ≈ 0.55. Points near the diagonal are accurate predictions; the model tracks the overall trend without overfitting to noise.</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide-container">
+        <div class="slide-header"><h2>K-Means Clustering: Two Real User Segments</h2></div>
+        <div class="grid-2" style="height: calc(100% - 80px);">
+            <div style="display: flex; flex-direction: column; justify-content: center; padding-right: 30px;">
+                <h3 style="color: var(--accent-purple); font-size: 29px; margin-bottom: 15px;">Segmenting for Adaptive Reminders</h3>
+                <p style="color: var(--text-secondary); font-size: 18px; line-height: 1.6; margin-bottom: 15px;">Clustering on <strong style="color: var(--text-primary);">Completion Rate, Purchase Rate, and Notification Click Rate</strong> — with <strong style="color: var(--text-primary);">k = 2</strong> chosen because it wins decisively on silhouette, Davies-Bouldin, and Calinski-Harabasz scores, not picked for simplicity.</p>
+                <p style="color: var(--text-secondary); font-size: 18px; line-height: 1.6; margin-bottom: 15px;">Completion Rate is nearly identical between the two groups (0.75 both) — <strong style="color: var(--text-primary);">Purchase Rate is what actually separates them</strong>, mirroring Subscription Type almost exactly: 249 Premium users converting at 25%, versus 351 Free users converting at just 6%.</p>
+                <div class="callout" style="border-left-color: var(--accent-purple); background: rgba(139,92,246,0.1);">
+                    <strong>Suggested actions:</strong> Reward and retain the 249 already-converting Premium users; send the 351 Free users goal-based premium trial reminders rather than generic reactivation — their completion rate is just as strong, they simply aren't purchasing.
+                </div>
+            </div>
+            <div class="chart-wrapper">
+                <h3 style="margin-bottom: 10px; font-size: 20px; text-align: center;">User Segments: Purchase vs Completion Rate</h3>
+                <div class="chart-container"><canvas id="clusterScatterChart"></canvas></div>
+                <div class="insight-box"><strong>Insight:</strong> This split tracks purchase behavior, not overall activity — it does not line up with the real Engagement_Level label (that's driven by workout frequency), so the two segmentations answer genuinely different business questions.</div>
             </div>
         </div>
     </div>
@@ -637,30 +695,30 @@
         <div class="grid-2" style="gap: 34px; height: calc(100% - 80px);">
             <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; justify-content: space-between;">
                 <li style="display: flex; gap: 15px; background: rgba(255,255,255,0.02); padding: 18px; border-radius: 12px;">
-                    <i class="fa-solid fa-fire" style="color: var(--accent-cyan); font-size: 24px; margin-top: 5px;"></i>
-                    <div><strong style="display: block; font-size: 18px; margin-bottom: 5px;">Workout Preferences</strong><span style="color: var(--text-secondary); font-size: 15px; line-height: 1.45;">Yoga is the most recorded workout at 25.1%, while Cardio has the highest average calorie burn at 539.7 calories.</span></div>
+                    <i class="fa-solid fa-fire" style="color: var(--accent-cyan); font-size: 27px; margin-top: 5px;"></i>
+                    <div><strong style="display: block; font-size: 20px; margin-bottom: 5px;">Workout Preferences</strong><span style="color: var(--text-secondary); font-size: 17px; line-height: 1.45;">Yoga is the most recorded workout at 25.1%, while Cardio has the highest average calorie burn at 539.7 calories.</span></div>
                 </li>
                 <li style="display: flex; gap: 15px; background: rgba(255,255,255,0.02); padding: 18px; border-radius: 12px;">
-                    <i class="fa-solid fa-clock" style="color: var(--accent-cyan); font-size: 24px; margin-top: 5px;"></i>
-                    <div><strong style="display: block; font-size: 18px; margin-bottom: 5px;">Prime Timing</strong><span style="color: var(--text-secondary); font-size: 15px; line-height: 1.45;">Morning accounts for 45.1% of workouts, making it the best timing window for reminders and app reliability.</span></div>
+                    <i class="fa-solid fa-clock" style="color: var(--accent-cyan); font-size: 27px; margin-top: 5px;"></i>
+                    <div><strong style="display: block; font-size: 20px; margin-bottom: 5px;">Prime Timing</strong><span style="color: var(--text-secondary); font-size: 17px; line-height: 1.45;">Morning accounts for 45.1% of workouts, making it the best timing window for reminders and app reliability.</span></div>
                 </li>
                 <li style="display: flex; gap: 15px; background: rgba(255,255,255,0.02); padding: 18px; border-radius: 12px;">
-                    <i class="fa-solid fa-mobile-screen" style="color: var(--accent-cyan); font-size: 24px; margin-top: 5px;"></i>
-                    <div><strong style="display: block; font-size: 18px; margin-bottom: 5px;">Feature Utility</strong><span style="color: var(--text-secondary); font-size: 15px; line-height: 1.45;">Workout Tracker contributes 39.8% of engagement sessions, showing users value progress tracking.</span></div>
+                    <i class="fa-solid fa-mobile-screen" style="color: var(--accent-cyan); font-size: 27px; margin-top: 5px;"></i>
+                    <div><strong style="display: block; font-size: 20px; margin-bottom: 5px;">Feature Utility</strong><span style="color: var(--text-secondary); font-size: 17px; line-height: 1.45;">Workout Tracker contributes 39.8% of engagement sessions, showing users value progress tracking.</span></div>
                 </li>
             </ul>
             <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; justify-content: space-between;">
                 <li style="display: flex; gap: 15px; background: rgba(255,255,255,0.02); padding: 18px; border-radius: 12px;">
-                    <i class="fa-solid fa-filter" style="color: var(--accent-emerald); font-size: 24px; margin-top: 5px;"></i>
-                    <div><strong style="display: block; font-size: 18px; margin-bottom: 5px;">Funnel Bottleneck</strong><span style="color: var(--text-secondary); font-size: 15px; line-height: 1.45;">Completion is strong at 75.0%, but notification clicks at 36.5% and purchases at 13.8% show conversion drop-off.</span></div>
+                    <i class="fa-solid fa-filter" style="color: var(--accent-emerald); font-size: 27px; margin-top: 5px;"></i>
+                    <div><strong style="display: block; font-size: 20px; margin-bottom: 5px;">Funnel Bottleneck</strong><span style="color: var(--text-secondary); font-size: 17px; line-height: 1.45;">Completion is strong at 75.0%, but notification clicks at 36.5% and purchases at 13.8% show conversion drop-off.</span></div>
                 </li>
                 <li style="display: flex; gap: 15px; background: rgba(255,255,255,0.02); padding: 18px; border-radius: 12px;">
-                    <i class="fa-solid fa-calculator" style="color: var(--accent-emerald); font-size: 24px; margin-top: 5px;"></i>
-                    <div><strong style="display: block; font-size: 18px; margin-bottom: 5px;">Statistical Reality</strong><span style="color: var(--text-secondary); font-size: 15px; line-height: 1.45;">Testing shows notification clicks do not automatically create longer sessions. Better message quality is needed.</span></div>
+                    <i class="fa-solid fa-calculator" style="color: var(--accent-emerald); font-size: 27px; margin-top: 5px;"></i>
+                    <div><strong style="display: block; font-size: 20px; margin-bottom: 5px;">Statistical Reality</strong><span style="color: var(--text-secondary); font-size: 17px; line-height: 1.45;">Testing shows notification clicks do not automatically create longer sessions. Better message quality is needed.</span></div>
                 </li>
                 <li style="display: flex; gap: 15px; background: rgba(16,185,129,0.06); padding: 18px; border-radius: 12px; border: 1px solid rgba(16,185,129,0.18);">
-                    <i class="fa-solid fa-brain" style="color: var(--accent-emerald); font-size: 24px; margin-top: 5px;"></i>
-                    <div><strong style="display: block; font-size: 18px; margin-bottom: 5px;">Modeling Direction</strong><span style="color: var(--text-secondary); font-size: 15px; line-height: 1.45;">ML converts these insights into action by identifying likely high-engagement users and estimating session time.</span></div>
+                    <i class="fa-solid fa-brain" style="color: var(--accent-emerald); font-size: 27px; margin-top: 5px;"></i>
+                    <div><strong style="display: block; font-size: 20px; margin-bottom: 5px;">Modeling Direction</strong><span style="color: var(--text-secondary); font-size: 17px; line-height: 1.45;">ML converts these insights into action by identifying likely high-engagement users and estimating session time.</span></div>
                 </li>
             </ul>
         </div>
@@ -670,30 +728,30 @@
         <div class="slide-header"><h2>Strategic Recommendations</h2></div>
         <div class="grid-3" style="margin-bottom: 24px;">
             <div class="card" style="padding: 24px;">
-                <h3 style="font-size: 20px; color: var(--accent-cyan); margin-bottom: 12px;">Prioritize high-value feature journeys</h3>
-                <p style="font-size: 14px; color: var(--text-secondary); line-height: 1.5;">As a senior data analyst, I recommend focusing product investment on Workout Tracker and Progress, which together account for 65% of feature usage and generate the strongest notification engagement.</p>
-                <div style="margin-top: 15px; font-size: 12px; font-weight: bold; color: var(--accent-emerald);">INSIGHT: 39.8% Workout Tracker, 25.1% Progress</div>
+                <h3 style="font-size: 22px; color: var(--accent-cyan); margin-bottom: 12px;">Prioritize high-value feature journeys</h3>
+                <p style="font-size: 16px; color: var(--text-secondary); line-height: 1.5;">As a senior data analyst, I recommend focusing product investment on Workout Tracker and Progress, which together account for 65% of feature usage and generate the strongest notification engagement.</p>
+                <div style="margin-top: 15px; font-size: 13px; font-weight: bold; color: var(--accent-emerald);">INSIGHT: 39.8% Workout Tracker, 25.1% Progress</div>
             </div>
             <div class="card" style="padding: 24px;">
-                <h3 style="font-size: 20px; color: var(--accent-emerald); margin-bottom: 12px;">Use completion-safe feature pairings</h3>
-                <p style="font-size: 14px; color: var(--text-secondary); line-height: 1.5;">Diet Log and Community show the highest workout completion rates (75.5% and 75.3%). Bundle these pathways with workout guidance to improve satisfaction and retention.</p>
-                <div style="margin-top: 15px; font-size: 12px; font-weight: bold; color: var(--accent-emerald);">COMPLETION: Diet Log 75.5%, Community 75.3%</div>
+                <h3 style="font-size: 22px; color: var(--accent-emerald); margin-bottom: 12px;">Use completion-safe feature pairings</h3>
+                <p style="font-size: 16px; color: var(--text-secondary); line-height: 1.5;">Diet Log and Community show the highest workout completion rates (75.5% and 75.3%). Bundle these pathways with workout guidance to improve satisfaction and retention.</p>
+                <div style="margin-top: 15px; font-size: 13px; font-weight: bold; color: var(--accent-emerald);">COMPLETION: Diet Log 75.5%, Community 75.3%</div>
             </div>
             <div class="card" style="padding: 24px;">
-                <h3 style="font-size: 20px; color: var(--accent-purple); margin-bottom: 12px;">Personalize by workout efficiency</h3>
-                <p style="font-size: 14px; color: var(--text-secondary); line-height: 1.5;">Leverage efficiency metrics in the product: Cardio delivers 9.0 calories per minute while Yoga delivers 4.0. Use this to recommend higher-efficiency workouts for calorie-focused users and consistency-focused routines for wellness goals.</p>
-                <div style="margin-top: 15px; font-size: 12px; font-weight: bold; color: var(--accent-emerald);">EFFICIENCY: Cardio 9.0 cal/min, Yoga 4.0 cal/min</div>
+                <h3 style="font-size: 22px; color: var(--accent-purple); margin-bottom: 12px;">Personalize by workout efficiency</h3>
+                <p style="font-size: 16px; color: var(--text-secondary); line-height: 1.5;">Leverage efficiency metrics in the product: Cardio delivers 9.0 calories per minute while Yoga delivers 4.0. Use this to recommend higher-efficiency workouts for calorie-focused users and consistency-focused routines for wellness goals.</p>
+                <div style="margin-top: 15px; font-size: 13px; font-weight: bold; color: var(--accent-emerald);">EFFICIENCY: Cardio 9.0 cal/min, Yoga 4.0 cal/min</div>
             </div>
         </div>
         <div class="grid-2" style="gap: 24px; height: auto;">
             <div class="card" style="border-color: var(--accent-blue); background: rgba(59,130,246,0.05); padding: 24px;">
-                <h3 style="font-size: 20px; color: var(--accent-blue); margin-bottom: 12px;"><i class="fa-solid fa-bolt"></i> Optimize cross-device consistency</h3>
-                <p style="font-size: 14px; color: var(--text-secondary); line-height: 1.55;">Because Mobile, Web, and Smartwatch usage are nearly equal (~33% each), the app strategy must deliver the same high-quality feature experience across all devices to support personalization and user satisfaction.</p>
-                <div style="margin-top: 15px; font-size: 12px; font-weight: bold; color: var(--accent-emerald);">DEVICE SHARE: Mobile 33.5%, Web 33.4%, Smartwatch 33.2%</div>
+                <h3 style="font-size: 22px; color: var(--accent-blue); margin-bottom: 12px;"><i class="fa-solid fa-bolt"></i> Optimize cross-device consistency</h3>
+                <p style="font-size: 16px; color: var(--text-secondary); line-height: 1.55;">Because Mobile, Web, and Smartwatch usage are nearly equal (~33% each), the app strategy must deliver the same high-quality feature experience across all devices to support personalization and user satisfaction.</p>
+                <div style="margin-top: 15px; font-size: 13px; font-weight: bold; color: var(--accent-emerald);">DEVICE SHARE: Mobile 33.5%, Web 33.4%, Smartwatch 33.2%</div>
             </div>
             <div class="card" style="border-color: var(--accent-pink); background: rgba(236,72,153,0.05); padding: 24px;">
-                <h3 style="font-size: 20px; color: var(--accent-pink); margin-bottom: 12px;"><i class="fa-solid fa-rocket"></i> Focus on engagement drivers not surface metrics</h3>
-                <p style="font-size: 14px; color: var(--text-secondary); line-height: 1.55;">Target improvements on the features and metrics that directly support Objectives 3 and 4: feature adoption, notification effectiveness, efficiency, and completion, rather than isolated volume numbers.</p>
+                <h3 style="font-size: 22px; color: var(--accent-pink); margin-bottom: 12px;"><i class="fa-solid fa-rocket"></i> Focus on engagement drivers not surface metrics</h3>
+                <p style="font-size: 16px; color: var(--text-secondary); line-height: 1.55;">Target improvements on the features and metrics that directly support Objectives 3 and 4: feature adoption, notification effectiveness, efficiency, and completion, rather than isolated volume numbers.</p>
             </div>
         </div>
     </div>
@@ -701,8 +759,8 @@
     <div class="slide-container">
         <div class="ambient-glow" style="background: radial-gradient(circle, rgba(139, 92, 246, 0.15) 0%, rgba(0,0,0,0) 70%); top: 50%; left: 50%; transform: translate(-50%, -50%);"></div>
         <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100%; text-align: center;">
-            <h1 style="font-size: 110px; background: linear-gradient(90deg, var(--accent-emerald), var(--accent-cyan)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 20px;">Q & A</h1>
-            <p style="font-size: 24px; color: var(--text-secondary);">Thank you for your time and attention.</p>
+            <h1 style="font-size: 123px; background: linear-gradient(90deg, var(--accent-emerald), var(--accent-cyan)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 20px;">Q & A</h1>
+            <p style="font-size: 27px; color: var(--text-secondary);">Thank you for your time and attention.</p>
         </div>
     </div>
 
@@ -716,7 +774,7 @@
     let isAnimating = false;
     let chartsRendered = new Set();
 
-    let regionChart, ageBubbleChart, calBarChart, calTimeChart, trendChart, featureChart, mlFeatureChart;
+    let regionChart, ageBubbleChart, calBarChart, calTimeChart, trendChart, featureChart, mlFeatureChart, engagementTierChart, regressionScatterChart, clusterScatterChart;
 
     Chart.defaults.color = '#8892B0';
     Chart.defaults.borderColor = 'rgba(255, 255, 255, 0.05)';
@@ -728,7 +786,7 @@
             if (chart.config.type !== 'bar') return;
             const { ctx } = chart;
             ctx.save();
-            ctx.font = 'bold 12px Lato';
+            ctx.font = 'bold 13px Lato';
             ctx.fillStyle = '#FFFFFF';
             ctx.textAlign = 'center';
             ctx.textBaseline = 'middle';
@@ -756,7 +814,7 @@
             if (chart.config.type !== 'doughnut') return;
             const { ctx } = chart;
             ctx.save();
-            ctx.font = 'bold 12px Lato';
+            ctx.font = 'bold 13px Lato';
             ctx.fillStyle = '#FFFFFF';
             ctx.textAlign = 'center';
             ctx.textBaseline = 'middle';
@@ -848,10 +906,25 @@
             renderFeatureChart();
             chartsRendered.add(6);
         }
-        // Slide 12: ML Features
-        if (index === 11 && !chartsRendered.has(11)) {
+        // Slide 10: Real Engagement Tier validation
+        if (index === 9 && !chartsRendered.has(9)) {
+            renderEngagementTierChart();
+            chartsRendered.add(9);
+        }
+        // Slide 13: ML Features
+        if (index === 12 && !chartsRendered.has(12)) {
             renderMLFeatureChart();
-            chartsRendered.add(11);
+            chartsRendered.add(12);
+        }
+        // Slide 14: Linear Regression scatter
+        if (index === 13 && !chartsRendered.has(13)) {
+            renderRegressionScatterChart();
+            chartsRendered.add(13);
+        }
+        // Slide 15: K-Means clustering scatter
+        if (index === 14 && !chartsRendered.has(14)) {
+            renderClusterScatterChart();
+            chartsRendered.add(14);
         }
     }
 
@@ -984,8 +1057,9 @@
             data: {
                 labels: ['2021', '2022', '2023', '2024', '2025'],
                 datasets: [
-                    { label: 'Total Sessions', data: [65000, 60000, 40000, 25000, 15000], borderColor: '#3B82F6', yAxisID: 'y', tension: 0.3 },
-                    { label: 'Avg Session Duration', data: [17.80, 17.82, 17.78, 17.88, 17.85], borderColor: '#10B981', yAxisID: 'y1', tension: 0.3 }
+                    { label: 'Total Sessions', data: [69893, 60611, 39614, 19859, 10023], borderColor: '#3B82F6', yAxisID: 'y', tension: 0.3 },
+                    { label: 'Avg Session Duration (min)', data: [17.82, 17.83, 17.80, 17.88, 17.85], borderColor: '#10B981', yAxisID: 'y1', tension: 0.3 },
+                    { label: 'Completion Rate (%)', data: [75.02, 75.02, 75.04, 74.90, 75.61], borderColor: '#EC4899', yAxisID: 'y2', tension: 0.3 }
                 ]
             },
             options: {
@@ -994,7 +1068,8 @@
                 plugins: { legend: { position: 'top', labels: { color: '#E6F1FF' } } },
                 scales: {
                     y: { type: 'linear', display: true, position: 'left', title: { display: true, text: 'Total Sessions', color: '#8892B0' } },
-                    y1: { type: 'linear', display: true, position: 'right', grid: { drawOnChartArea: false }, title: { display: true, text: 'Avg Session Duration (min)', color: '#8892B0' } }
+                    y1: { type: 'linear', display: true, position: 'right', grid: { drawOnChartArea: false }, title: { display: true, text: 'Avg Session Duration (min)', color: '#8892B0' } },
+                    y2: { type: 'linear', display: true, position: 'right', grid: { drawOnChartArea: false }, title: { display: true, text: 'Completion Rate (%)', color: '#8892B0' }, min: 70, max: 80 }
                 }
             }
         });
@@ -1017,15 +1092,108 @@
         });
     }
 
+    function renderEngagementTierChart() {
+        const ctx = document.getElementById('engagementTierChart').getContext('2d');
+        engagementTierChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Low', 'Medium', 'High'],
+                datasets: [
+                    { label: 'Avg Total Workouts', data: [155, 167, 178], backgroundColor: '#3B82F6', borderRadius: 4 },
+                    { label: 'Avg Total Sessions', data: [306, 335, 359], backgroundColor: '#10B981', borderRadius: 4 }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { position: 'top', labels: { color: '#E6F1FF' } } },
+                scales: {
+                    x: { title: { display: true, text: 'Real Engagement Tier', color: '#8892B0' } },
+                    y: { title: { display: true, text: 'Average per User', color: '#8892B0' }, beginAtZero: true }
+                }
+            }
+        });
+    }
+
+    function renderRegressionScatterChart() {
+        const ctx = document.getElementById('regressionScatterChart').getContext('2d');
+        const dataPoints = [{x:6195.0,y:6367.2}, {x:6690.0,y:6721.3}, {x:5638.0,y:5022.2}, {x:5896.0,y:5965.1}, {x:5613.0,y:5489.7}, {x:5444.0,y:5696.5}, {x:4891.0,y:5346.2}, {x:5529.0,y:6068.7}, {x:5969.0,y:5798.7}, {x:6080.0,y:6550.6}, {x:6181.0,y:5734.1}, {x:5791.0,y:6419.3}, {x:6345.0,y:5801.4}, {x:6227.0,y:6100.9}, {x:6558.0,y:5838.7}, {x:6174.0,y:6571.3}, {x:6528.0,y:6166.2}, {x:6356.0,y:6085.6}, {x:6060.0,y:5531.8}, {x:5504.0,y:5443.0}, {x:6032.0,y:6278.1}, {x:5743.0,y:6158.4}, {x:5497.0,y:5739.9}, {x:5174.0,y:5930.0}, {x:5853.0,y:5725.0}, {x:6453.0,y:6274.2}, {x:5969.0,y:5987.6}, {x:6138.0,y:5947.7}, {x:5994.0,y:6028.3}, {x:5644.0,y:5715.6}, {x:5086.0,y:4862.9}, {x:5627.0,y:5341.9}, {x:6455.0,y:6526.3}, {x:5256.0,y:5401.5}, {x:6224.0,y:6306.6}, {x:6123.0,y:5605.6}, {x:6236.0,y:6679.9}, {x:5885.0,y:6218.7}, {x:5768.0,y:5565.2}, {x:4967.0,y:5341.6}, {x:4960.0,y:5178.5}, {x:6674.0,y:6394.6}, {x:5836.0,y:5609.0}, {x:5547.0,y:5823.0}, {x:6521.0,y:6563.0}, {x:6254.0,y:5823.3}, {x:6218.0,y:5918.6}, {x:6132.0,y:5539.4}, {x:6745.0,y:5994.1}, {x:6438.0,y:6029.5}, {x:5747.0,y:5954.4}, {x:5087.0,y:5726.1}, {x:6710.0,y:6751.2}, {x:5707.0,y:5964.6}, {x:6070.0,y:6370.2}, {x:6141.0,y:6077.4}, {x:5593.0,y:6123.0}, {x:4727.0,y:5560.2}, {x:5048.0,y:5695.0}, {x:5822.0,y:5895.2}, {x:6345.0,y:6634.0}, {x:4789.0,y:5293.4}, {x:5236.0,y:4857.0}, {x:5579.0,y:5362.2}, {x:6439.0,y:5813.7}, {x:5946.0,y:6010.6}, {x:7418.0,y:6565.7}, {x:5896.0,y:6468.5}, {x:5556.0,y:5751.8}, {x:6240.0,y:6269.4}, {x:5619.0,y:5830.0}, {x:5931.0,y:5490.3}, {x:5655.0,y:5514.0}, {x:5375.0,y:5616.5}, {x:5281.0,y:5321.5}, {x:5867.0,y:5800.9}, {x:5855.0,y:5894.3}, {x:6678.0,y:6109.4}, {x:6246.0,y:6412.5}, {x:6159.0,y:6352.0}, {x:5452.0,y:5586.7}, {x:5684.0,y:5801.6}, {x:5842.0,y:6145.3}, {x:6519.0,y:6370.7}, {x:5557.0,y:5760.9}, {x:6816.0,y:6692.8}, {x:7251.0,y:6894.6}, {x:6103.0,y:6140.7}, {x:6304.0,y:5981.7}, {x:6627.0,y:6281.7}, {x:5342.0,y:5680.9}, {x:5281.0,y:5536.0}, {x:5513.0,y:5765.9}, {x:5574.0,y:5207.6}, {x:5872.0,y:5503.8}, {x:5789.0,y:5962.3}, {x:5386.0,y:5200.1}, {x:5683.0,y:6011.4}, {x:5708.0,y:5983.2}, {x:6866.0,y:6538.5}, {x:5996.0,y:5878.3}, {x:6374.0,y:6354.0}, {x:6216.0,y:5685.3}, {x:6620.0,y:6557.0}, {x:5259.0,y:5556.1}, {x:7327.0,y:6390.2}, {x:5854.0,y:6107.5}, {x:5349.0,y:5524.5}, {x:5829.0,y:5638.4}, {x:6675.0,y:6257.6}, {x:6490.0,y:6197.1}, {x:5383.0,y:4975.7}, {x:6408.0,y:6688.9}, {x:5473.0,y:5485.8}, {x:7046.0,y:6538.2}, {x:6049.0,y:5592.7}, {x:6798.0,y:6415.1}, {x:5883.0,y:5985.8}, {x:5918.0,y:5984.1}, {x:6051.0,y:5725.8}];
+        const minVal = Math.min(...dataPoints.map(p => p.x), ...dataPoints.map(p => p.y));
+        const maxVal = Math.max(...dataPoints.map(p => p.x), ...dataPoints.map(p => p.y));
+        regressionScatterChart = new Chart(ctx, {
+            type: 'scatter',
+            data: {
+                datasets: [
+                    {
+                        label: 'Test Users',
+                        data: dataPoints,
+                        backgroundColor: 'rgba(59,130,246,0.6)',
+                        pointRadius: 4
+                    },
+                    {
+                        label: 'Perfect Prediction',
+                        type: 'line',
+                        data: [{x: minVal, y: minVal}, {x: maxVal, y: maxVal}],
+                        borderColor: 'rgba(236,72,153,0.8)',
+                        borderDash: [6, 6],
+                        pointRadius: 0,
+                        fill: false
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { position: 'top', labels: { color: '#E6F1FF' } } },
+                scales: {
+                    x: { title: { display: true, text: 'Actual Total Session Time (min)', color: '#8892B0' } },
+                    y: { title: { display: true, text: 'Predicted Total Session Time (min)', color: '#8892B0' } }
+                }
+            }
+        });
+    }
+
+    function renderClusterScatterChart() {
+        const ctx = document.getElementById('clusterScatterChart').getContext('2d');
+        clusterScatterChart = new Chart(ctx, {
+            type: 'scatter',
+            data: {
+                datasets: [
+                    {
+                        label: 'Cluster 0: Premium, High Purchase (249 users)',
+                        data: [{x:0.282,y:0.765}, {x:0.258,y:0.787}, {x:0.261,y:0.75}, {x:0.24,y:0.749}, {x:0.215,y:0.712}, {x:0.205,y:0.774}, {x:0.29,y:0.766}, {x:0.221,y:0.734}, {x:0.251,y:0.744}, {x:0.26,y:0.716}, {x:0.289,y:0.73}, {x:0.222,y:0.781}, {x:0.249,y:0.779}, {x:0.288,y:0.718}, {x:0.239,y:0.751}, {x:0.246,y:0.754}, {x:0.258,y:0.792}, {x:0.251,y:0.742}, {x:0.268,y:0.737}, {x:0.266,y:0.743}, {x:0.241,y:0.729}, {x:0.24,y:0.74}, {x:0.238,y:0.756}, {x:0.221,y:0.756}, {x:0.234,y:0.731}, {x:0.242,y:0.772}, {x:0.287,y:0.75}, {x:0.248,y:0.759}, {x:0.228,y:0.745}, {x:0.237,y:0.72}, {x:0.279,y:0.767}, {x:0.251,y:0.772}, {x:0.222,y:0.755}, {x:0.263,y:0.758}, {x:0.256,y:0.774}, {x:0.22,y:0.763}, {x:0.283,y:0.747}, {x:0.266,y:0.759}, {x:0.236,y:0.727}, {x:0.296,y:0.748}, {x:0.235,y:0.739}, {x:0.243,y:0.737}, {x:0.251,y:0.799}, {x:0.237,y:0.766}, {x:0.236,y:0.758}, {x:0.271,y:0.739}, {x:0.232,y:0.791}, {x:0.258,y:0.747}, {x:0.26,y:0.811}, {x:0.213,y:0.734}, {x:0.242,y:0.739}, {x:0.242,y:0.777}, {x:0.271,y:0.718}, {x:0.253,y:0.756}, {x:0.276,y:0.754}, {x:0.242,y:0.772}, {x:0.246,y:0.761}, {x:0.276,y:0.711}, {x:0.237,y:0.734}, {x:0.239,y:0.785}, {x:0.25,y:0.769}, {x:0.279,y:0.715}, {x:0.24,y:0.728}, {x:0.283,y:0.717}, {x:0.234,y:0.746}, {x:0.26,y:0.767}, {x:0.296,y:0.757}, {x:0.283,y:0.722}, {x:0.251,y:0.766}, {x:0.273,y:0.743}, {x:0.271,y:0.753}, {x:0.257,y:0.716}, {x:0.238,y:0.721}, {x:0.242,y:0.75}, {x:0.267,y:0.733}, {x:0.258,y:0.788}, {x:0.225,y:0.688}, {x:0.229,y:0.736}, {x:0.248,y:0.761}, {x:0.267,y:0.782}, {x:0.275,y:0.758}, {x:0.268,y:0.756}, {x:0.273,y:0.773}, {x:0.26,y:0.73}, {x:0.261,y:0.768}, {x:0.271,y:0.75}, {x:0.279,y:0.783}, {x:0.235,y:0.723}, {x:0.284,y:0.754}, {x:0.258,y:0.735}, {x:0.242,y:0.746}, {x:0.265,y:0.818}, {x:0.255,y:0.713}, {x:0.219,y:0.747}, {x:0.258,y:0.739}, {x:0.234,y:0.783}, {x:0.278,y:0.743}, {x:0.225,y:0.709}, {x:0.27,y:0.736}, {x:0.232,y:0.785}, {x:0.232,y:0.747}, {x:0.256,y:0.756}, {x:0.217,y:0.743}, {x:0.251,y:0.759}, {x:0.251,y:0.765}, {x:0.252,y:0.804}, {x:0.262,y:0.776}, {x:0.249,y:0.766}, {x:0.262,y:0.769}, {x:0.257,y:0.732}, {x:0.224,y:0.767}, {x:0.244,y:0.729}, {x:0.271,y:0.753}, {x:0.234,y:0.726}, {x:0.261,y:0.739}, {x:0.284,y:0.761}, {x:0.256,y:0.765}, {x:0.242,y:0.752}, {x:0.254,y:0.772}, {x:0.274,y:0.731}, {x:0.258,y:0.756}, {x:0.203,y:0.709}, {x:0.25,y:0.747}, {x:0.249,y:0.718}, {x:0.252,y:0.775}, {x:0.239,y:0.721}, {x:0.272,y:0.739}, {x:0.268,y:0.767}, {x:0.291,y:0.746}, {x:0.283,y:0.796}, {x:0.235,y:0.786}, {x:0.246,y:0.735}, {x:0.254,y:0.725}, {x:0.264,y:0.757}, {x:0.286,y:0.742}, {x:0.233,y:0.757}, {x:0.251,y:0.768}, {x:0.199,y:0.759}, {x:0.189,y:0.71}, {x:0.249,y:0.72}, {x:0.226,y:0.746}, {x:0.251,y:0.771}, {x:0.225,y:0.718}, {x:0.236,y:0.742}, {x:0.266,y:0.734}, {x:0.244,y:0.753}, {x:0.251,y:0.757}, {x:0.24,y:0.78}, {x:0.213,y:0.737}, {x:0.243,y:0.738}, {x:0.237,y:0.76}, {x:0.249,y:0.751}, {x:0.26,y:0.764}, {x:0.225,y:0.728}, {x:0.266,y:0.716}, {x:0.223,y:0.772}, {x:0.261,y:0.755}, {x:0.228,y:0.735}, {x:0.238,y:0.708}, {x:0.28,y:0.728}, {x:0.239,y:0.737}, {x:0.226,y:0.74}, {x:0.233,y:0.711}, {x:0.213,y:0.746}, {x:0.248,y:0.752}, {x:0.27,y:0.733}, {x:0.277,y:0.745}, {x:0.245,y:0.776}, {x:0.231,y:0.734}, {x:0.266,y:0.734}, {x:0.28,y:0.739}, {x:0.236,y:0.738}, {x:0.198,y:0.722}, {x:0.231,y:0.772}, {x:0.211,y:0.776}, {x:0.249,y:0.721}, {x:0.255,y:0.767}, {x:0.248,y:0.768}, {x:0.294,y:0.767}, {x:0.226,y:0.744}, {x:0.261,y:0.729}, {x:0.179,y:0.787}, {x:0.223,y:0.699}, {x:0.26,y:0.785}, {x:0.275,y:0.767}, {x:0.239,y:0.726}, {x:0.225,y:0.734}, {x:0.219,y:0.751}, {x:0.264,y:0.757}, {x:0.252,y:0.753}, {x:0.259,y:0.786}, {x:0.24,y:0.764}, {x:0.266,y:0.759}, {x:0.214,y:0.786}, {x:0.24,y:0.763}, {x:0.259,y:0.76}, {x:0.271,y:0.749}, {x:0.252,y:0.788}, {x:0.238,y:0.746}, {x:0.244,y:0.766}, {x:0.264,y:0.754}, {x:0.197,y:0.781}, {x:0.284,y:0.727}, {x:0.244,y:0.765}, {x:0.246,y:0.727}, {x:0.274,y:0.759}, {x:0.204,y:0.783}, {x:0.207,y:0.686}, {x:0.238,y:0.784}, {x:0.281,y:0.756}, {x:0.282,y:0.749}, {x:0.205,y:0.762}, {x:0.228,y:0.745}, {x:0.237,y:0.732}, {x:0.247,y:0.719}, {x:0.251,y:0.765}, {x:0.232,y:0.762}, {x:0.217,y:0.733}, {x:0.244,y:0.758}, {x:0.233,y:0.77}, {x:0.281,y:0.756}, {x:0.256,y:0.764}, {x:0.23,y:0.742}, {x:0.26,y:0.759}, {x:0.274,y:0.769}, {x:0.243,y:0.733}, {x:0.269,y:0.761}, {x:0.25,y:0.755}, {x:0.211,y:0.765}, {x:0.269,y:0.758}, {x:0.275,y:0.772}, {x:0.246,y:0.724}, {x:0.242,y:0.738}, {x:0.235,y:0.769}, {x:0.282,y:0.743}, {x:0.235,y:0.718}, {x:0.274,y:0.767}, {x:0.232,y:0.778}, {x:0.205,y:0.76}, {x:0.238,y:0.751}, {x:0.289,y:0.758}, {x:0.238,y:0.754}, {x:0.239,y:0.713}, {x:0.268,y:0.768}, {x:0.25,y:0.762}, {x:0.229,y:0.756}, {x:0.247,y:0.701}, {x:0.259,y:0.769}, {x:0.23,y:0.789}],
+                        backgroundColor: 'rgba(16,185,129,0.6)',
+                        pointRadius: 4
+                    },
+                    {
+                        label: 'Cluster 1: Free, Low Purchase (351 users)',
+                        data: [{x:0.088,y:0.765}, {x:0.047,y:0.776}, {x:0.109,y:0.721}, {x:0.054,y:0.726}, {x:0.12,y:0.714}, {x:0.035,y:0.767}, {x:0.04,y:0.701}, {x:0.112,y:0.773}, {x:0.048,y:0.72}, {x:0.116,y:0.787}, {x:0.039,y:0.751}, {x:0.057,y:0.741}, {x:0.06,y:0.722}, {x:0.031,y:0.742}, {x:0.089,y:0.745}, {x:0.042,y:0.789}, {x:0.051,y:0.742}, {x:0.085,y:0.723}, {x:0.034,y:0.788}, {x:0.074,y:0.762}, {x:0.062,y:0.729}, {x:0.047,y:0.776}, {x:0.05,y:0.752}, {x:0.051,y:0.774}, {x:0.041,y:0.756}, {x:0.047,y:0.767}, {x:0.069,y:0.753}, {x:0.04,y:0.736}, {x:0.043,y:0.78}, {x:0.116,y:0.78}, {x:0.036,y:0.755}, {x:0.03,y:0.787}, {x:0.033,y:0.782}, {x:0.042,y:0.704}, {x:0.041,y:0.76}, {x:0.107,y:0.76}, {x:0.023,y:0.76}, {x:0.102,y:0.724}, {x:0.057,y:0.789}, {x:0.072,y:0.74}, {x:0.042,y:0.687}, {x:0.056,y:0.78}, {x:0.029,y:0.763}, {x:0.038,y:0.734}, {x:0.059,y:0.729}, {x:0.065,y:0.766}, {x:0.041,y:0.72}, {x:0.092,y:0.743}, {x:0.119,y:0.738}, {x:0.06,y:0.738}, {x:0.128,y:0.774}, {x:0.055,y:0.777}, {x:0.095,y:0.762}, {x:0.05,y:0.726}, {x:0.034,y:0.78}, {x:0.054,y:0.731}, {x:0.057,y:0.716}, {x:0.085,y:0.734}, {x:0.046,y:0.713}, {x:0.082,y:0.735}, {x:0.048,y:0.763}, {x:0.039,y:0.747}, {x:0.051,y:0.732}, {x:0.058,y:0.718}, {x:0.051,y:0.749}, {x:0.057,y:0.725}, {x:0.065,y:0.726}, {x:0.049,y:0.783}, {x:0.09,y:0.731}, {x:0.06,y:0.785}, {x:0.078,y:0.754}, {x:0.038,y:0.769}, {x:0.093,y:0.762}, {x:0.073,y:0.792}, {x:0.047,y:0.735}, {x:0.11,y:0.716}, {x:0.046,y:0.757}, {x:0.036,y:0.762}, {x:0.05,y:0.777}, {x:0.04,y:0.733}, {x:0.101,y:0.769}, {x:0.134,y:0.741}, {x:0.047,y:0.738}, {x:0.079,y:0.713}, {x:0.061,y:0.742}, {x:0.103,y:0.772}, {x:0.027,y:0.777}, {x:0.036,y:0.78}, {x:0.061,y:0.77}, {x:0.041,y:0.766}, {x:0.059,y:0.743}, {x:0.042,y:0.755}, {x:0.069,y:0.743}, {x:0.052,y:0.741}, {x:0.063,y:0.738}, {x:0.048,y:0.727}, {x:0.044,y:0.794}, {x:0.049,y:0.716}, {x:0.047,y:0.791}, {x:0.051,y:0.764}, {x:0.05,y:0.771}, {x:0.057,y:0.721}, {x:0.053,y:0.742}, {x:0.116,y:0.777}, {x:0.046,y:0.769}, {x:0.036,y:0.773}, {x:0.07,y:0.776}, {x:0.124,y:0.763}, {x:0.058,y:0.757}, {x:0.062,y:0.717}, {x:0.066,y:0.742}, {x:0.045,y:0.762}, {x:0.054,y:0.78}, {x:0.042,y:0.733}, {x:0.095,y:0.739}, {x:0.061,y:0.731}, {x:0.04,y:0.741}, {x:0.042,y:0.798}, {x:0.059,y:0.71}, {x:0.048,y:0.725}, {x:0.057,y:0.768}, {x:0.044,y:0.755}, {x:0.044,y:0.782}, {x:0.043,y:0.764}, {x:0.047,y:0.769}, {x:0.057,y:0.702}, {x:0.035,y:0.744}, {x:0.045,y:0.754}, {x:0.072,y:0.786}, {x:0.049,y:0.757}, {x:0.042,y:0.791}, {x:0.08,y:0.728}, {x:0.04,y:0.798}, {x:0.09,y:0.751}, {x:0.061,y:0.709}, {x:0.046,y:0.759}, {x:0.052,y:0.742}, {x:0.053,y:0.707}, {x:0.02,y:0.745}, {x:0.057,y:0.735}, {x:0.055,y:0.742}, {x:0.053,y:0.799}, {x:0.051,y:0.798}, {x:0.046,y:0.769}, {x:0.043,y:0.749}, {x:0.029,y:0.73}, {x:0.049,y:0.777}, {x:0.117,y:0.724}, {x:0.031,y:0.794}, {x:0.141,y:0.718}, {x:0.041,y:0.778}, {x:0.047,y:0.712}, {x:0.036,y:0.746}, {x:0.055,y:0.74}, {x:0.048,y:0.712}, {x:0.054,y:0.785}, {x:0.029,y:0.732}, {x:0.092,y:0.78}, {x:0.038,y:0.742}, {x:0.057,y:0.751}, {x:0.055,y:0.757}, {x:0.05,y:0.766}, {x:0.094,y:0.745}, {x:0.022,y:0.728}, {x:0.054,y:0.764}, {x:0.052,y:0.792}, {x:0.033,y:0.766}, {x:0.062,y:0.729}, {x:0.059,y:0.764}, {x:0.06,y:0.775}, {x:0.107,y:0.739}, {x:0.059,y:0.739}, {x:0.046,y:0.744}, {x:0.057,y:0.779}, {x:0.06,y:0.752}, {x:0.049,y:0.718}, {x:0.038,y:0.752}, {x:0.04,y:0.728}, {x:0.066,y:0.757}, {x:0.057,y:0.713}, {x:0.044,y:0.722}, {x:0.058,y:0.725}, {x:0.035,y:0.777}, {x:0.049,y:0.72}, {x:0.066,y:0.762}, {x:0.063,y:0.783}, {x:0.046,y:0.749}, {x:0.1,y:0.766}, {x:0.036,y:0.737}, {x:0.04,y:0.751}, {x:0.06,y:0.76}, {x:0.054,y:0.75}, {x:0.055,y:0.742}, {x:0.073,y:0.723}, {x:0.051,y:0.783}, {x:0.056,y:0.759}, {x:0.05,y:0.739}, {x:0.039,y:0.772}, {x:0.045,y:0.74}, {x:0.046,y:0.725}, {x:0.123,y:0.798}, {x:0.068,y:0.74}, {x:0.048,y:0.728}, {x:0.074,y:0.746}, {x:0.038,y:0.788}, {x:0.052,y:0.745}, {x:0.042,y:0.772}, {x:0.094,y:0.718}, {x:0.039,y:0.73}, {x:0.054,y:0.759}, {x:0.042,y:0.764}, {x:0.107,y:0.771}, {x:0.038,y:0.716}, {x:0.043,y:0.75}, {x:0.044,y:0.733}, {x:0.108,y:0.774}, {x:0.063,y:0.768}, {x:0.046,y:0.728}, {x:0.045,y:0.744}, {x:0.045,y:0.777}, {x:0.095,y:0.778}, {x:0.035,y:0.736}, {x:0.06,y:0.772}, {x:0.051,y:0.726}, {x:0.093,y:0.725}, {x:0.051,y:0.747}, {x:0.061,y:0.793}, {x:0.053,y:0.731}, {x:0.051,y:0.772}, {x:0.059,y:0.738}, {x:0.049,y:0.781}, {x:0.061,y:0.777}, {x:0.054,y:0.745}, {x:0.093,y:0.731}, {x:0.062,y:0.769}, {x:0.062,y:0.715}, {x:0.108,y:0.726}, {x:0.035,y:0.759}, {x:0.125,y:0.735}, {x:0.057,y:0.743}, {x:0.048,y:0.747}, {x:0.04,y:0.711}, {x:0.051,y:0.718}, {x:0.034,y:0.752}, {x:0.052,y:0.708}, {x:0.047,y:0.725}, {x:0.064,y:0.729}, {x:0.096,y:0.747}, {x:0.054,y:0.764}, {x:0.09,y:0.789}, {x:0.04,y:0.726}, {x:0.038,y:0.749}, {x:0.102,y:0.756}, {x:0.054,y:0.72}, {x:0.141,y:0.784}, {x:0.119,y:0.73}, {x:0.041,y:0.731}, {x:0.046,y:0.718}, {x:0.107,y:0.737}, {x:0.062,y:0.736}, {x:0.052,y:0.735}, {x:0.054,y:0.775}, {x:0.066,y:0.769}, {x:0.061,y:0.713}, {x:0.047,y:0.776}, {x:0.061,y:0.735}, {x:0.061,y:0.719}, {x:0.104,y:0.773}, {x:0.054,y:0.768}, {x:0.039,y:0.732}, {x:0.044,y:0.753}, {x:0.069,y:0.74}, {x:0.056,y:0.748}, {x:0.051,y:0.778}, {x:0.071,y:0.766}, {x:0.049,y:0.717}, {x:0.111,y:0.783}, {x:0.054,y:0.763}, {x:0.04,y:0.736}, {x:0.06,y:0.739}, {x:0.063,y:0.695}, {x:0.035,y:0.724}, {x:0.047,y:0.753}, {x:0.046,y:0.716}, {x:0.072,y:0.749}, {x:0.095,y:0.756}, {x:0.069,y:0.738}, {x:0.048,y:0.755}, {x:0.055,y:0.741}, {x:0.053,y:0.767}, {x:0.045,y:0.757}, {x:0.034,y:0.707}, {x:0.052,y:0.746}, {x:0.043,y:0.754}, {x:0.045,y:0.736}, {x:0.057,y:0.746}, {x:0.096,y:0.764}, {x:0.032,y:0.75}, {x:0.068,y:0.762}, {x:0.053,y:0.687}, {x:0.065,y:0.716}, {x:0.076,y:0.744}, {x:0.048,y:0.749}, {x:0.064,y:0.776}, {x:0.05,y:0.791}, {x:0.057,y:0.759}, {x:0.043,y:0.768}, {x:0.049,y:0.714}, {x:0.071,y:0.772}, {x:0.042,y:0.831}, {x:0.048,y:0.737}, {x:0.027,y:0.749}, {x:0.032,y:0.732}, {x:0.063,y:0.693}, {x:0.056,y:0.741}, {x:0.068,y:0.74}, {x:0.034,y:0.759}, {x:0.039,y:0.755}, {x:0.051,y:0.758}, {x:0.042,y:0.758}, {x:0.03,y:0.754}, {x:0.042,y:0.741}, {x:0.031,y:0.736}, {x:0.04,y:0.777}, {x:0.033,y:0.735}, {x:0.037,y:0.731}, {x:0.045,y:0.734}, {x:0.061,y:0.777}, {x:0.038,y:0.743}, {x:0.053,y:0.74}, {x:0.036,y:0.77}, {x:0.043,y:0.739}, {x:0.047,y:0.737}, {x:0.047,y:0.769}, {x:0.047,y:0.783}, {x:0.046,y:0.772}, {x:0.054,y:0.776}, {x:0.08,y:0.785}, {x:0.055,y:0.734}, {x:0.084,y:0.776}, {x:0.057,y:0.789}, {x:0.055,y:0.742}, {x:0.094,y:0.726}, {x:0.116,y:0.722}, {x:0.061,y:0.754}, {x:0.053,y:0.734}, {x:0.042,y:0.748}, {x:0.098,y:0.81}, {x:0.074,y:0.784}, {x:0.052,y:0.78}, {x:0.039,y:0.747}],
+                        backgroundColor: 'rgba(236,72,153,0.6)',
+                        pointRadius: 4
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { position: 'top', labels: { color: '#E6F1FF', boxWidth: 12, font: { size: 12 } } } },
+                scales: {
+                    x: { title: { display: true, text: 'Purchase Rate', color: '#8892B0' } },
+                    y: { title: { display: true, text: 'Completion Rate', color: '#8892B0' } }
+                }
+            }
+        });
+    }
+
     function renderMLFeatureChart() {
         const ctx = document.getElementById('mlFeatureChart').getContext('2d');
         mlFeatureChart = new Chart(ctx, {
             type: 'bar',
             data: {
-                labels: ['Total Workouts', 'Premium Subscription', 'Purchase Rate', 'Completion Rate', 'Trial Subscription', 'Age Group (Older)', 'Notification Clicks'],
+                labels: ['Total Workouts', 'Completion Rate', 'Notification Clicks', 'Total Steps', 'Premium Subscription', 'Purchase Rate'],
                 datasets: [{
-                    label: 'Impact on High Engagement',
-                    data: [2.21, 0.62, -0.34, -0.14, 0.12, 0.08, 0.06],
+                    label: "Impact on 'High' Engagement Tier",
+                    data: [3.09, 1.36, 0.92, 0.37, 0.34, -0.28],
                     backgroundColor: function(context) {
                         const value = context.dataset.data[context.dataIndex];
                         return value > 0 ? '#10B981' : '#EC4899'; // Emerald for positive, Pink for negative
@@ -1054,7 +1222,7 @@
                     },
                     y: {
                         grid: { display: false },
-                        ticks: { color: '#E6F1FF', font: { size: 12 } }
+                        ticks: { color: '#E6F1FF', font: { size: 13 } }
                     }
                 }
             }
